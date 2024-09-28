@@ -1,0 +1,3 @@
+HE234	Quang	10.0
+HE555	Minh	8.6
+HE443	Dung	7.0

@@ -1,0 +1,3 @@
+In Python you can walk.
+In Python you can sleep.
+In Python you can go to the sun and take a photo.

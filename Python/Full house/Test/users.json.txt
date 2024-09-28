@@ -1,0 +1,10 @@
+[
+  {
+    username anhnt,
+    password Anh@123
+  },
+  {
+    username anhnt2,
+    password Anh@123
+  }
+]

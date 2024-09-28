@@ -1,0 +1,454 @@
+26-Sep-2024 13:59:21.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.23
+26-Sep-2024 13:59:21.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 16 2024 12:17:18 UTC
+26-Sep-2024 13:59:21.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.23.0
+26-Sep-2024 13:59:21.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+26-Sep-2024 13:59:21.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+26-Sep-2024 13:59:21.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Sep-2024 13:59:21.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+26-Sep-2024 13:59:21.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.11+7-LTS-207
+26-Sep-2024 13:59:21.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Sep-2024 13:59:21.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Programming\Java\Tomcat\apache-tomcat-10.1.23
+26-Sep-2024 13:59:21.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Programming\Java\Tomcat\apache-tomcat-10.1.23
+26-Sep-2024 13:59:21.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\logging.properties
+26-Sep-2024 13:59:21.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Sep-2024 13:59:21.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Sep-2024 13:59:21.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Sep-2024 13:59:21.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Sep-2024 13:59:21.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Sep-2024 13:59:21.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+26-Sep-2024 13:59:21.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+26-Sep-2024 13:59:21.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Sep-2024 13:59:21.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Programming\Java\Tomcat\apache-tomcat-10.1.23
+26-Sep-2024 13:59:21.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Programming\Java\Tomcat\apache-tomcat-10.1.23
+26-Sep-2024 13:59:21.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\temp
+26-Sep-2024 13:59:22.073 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+26-Sep-2024 13:59:22.126 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+26-Sep-2024 13:59:22.748 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Sep-2024 13:59:22.841 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1608] milliseconds
+26-Sep-2024 13:59:22.978 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Sep-2024 13:59:22.979 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+26-Sep-2024 13:59:22.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Assignment.xml]
+26-Sep-2024 13:59:23.052 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Assignment] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Assignment.xml] has been ignored
+26-Sep-2024 13:59:26.062 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Sep-2024 13:59:26.359 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [107] milliseconds.
+26-Sep-2024 13:59:26.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Assignment.xml] has finished in [3,450] ms
+26-Sep-2024 13:59:26.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletUltraSpeed.xml]
+26-Sep-2024 13:59:26.454 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CreateServletUltraSpeed] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletUltraSpeed.xml] has been ignored
+26-Sep-2024 13:59:26.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletUltraSpeed.xml] has finished in [83] ms
+26-Sep-2024 13:59:26.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletXML.xml]
+26-Sep-2024 13:59:26.536 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CreateServletXML] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletXML.xml] has been ignored
+26-Sep-2024 13:59:26.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletXML.xml] has finished in [102] ms
+26-Sep-2024 13:59:26.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_Collection.xml]
+26-Sep-2024 13:59:26.637 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CRUD_With_Collection] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_Collection.xml] has been ignored
+26-Sep-2024 13:59:27.579 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Sep-2024 13:59:27.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_Collection.xml] has finished in [992] ms
+26-Sep-2024 13:59:27.630 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_DB.xml]
+26-Sep-2024 13:59:27.634 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CRUD_With_DB] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_DB.xml] has been ignored
+26-Sep-2024 13:59:28.969 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Sep-2024 13:59:29.016 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_DB.xml] has finished in [1,384] ms
+26-Sep-2024 13:59:29.017 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Filter.xml]
+26-Sep-2024 13:59:29.018 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Filter] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Filter.xml] has been ignored
+26-Sep-2024 13:59:29.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Filter.xml] has finished in [119] ms
+26-Sep-2024 13:59:29.136 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterAuthentication.xml]
+26-Sep-2024 13:59:29.137 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FilterAuthentication] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterAuthentication.xml] has been ignored
+26-Sep-2024 13:59:29.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterAuthentication.xml] has finished in [43] ms
+26-Sep-2024 13:59:29.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml]
+26-Sep-2024 13:59:29.179 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FilterConfig] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml] has been ignored
+26-Sep-2024 13:59:29.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml] has finished in [90] ms
+26-Sep-2024 13:59:29.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex1.xml]
+26-Sep-2024 13:59:29.285 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex1] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex1.xml] has been ignored
+26-Sep-2024 13:59:29.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex1.xml] has finished in [66] ms
+26-Sep-2024 13:59:29.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex3.xml]
+26-Sep-2024 13:59:29.337 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex3] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex3.xml] has been ignored
+26-Sep-2024 13:59:29.423 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex3.xml] has finished in [88] ms
+26-Sep-2024 13:59:29.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex4.xml]
+26-Sep-2024 13:59:29.426 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex4] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex4.xml] has been ignored
+26-Sep-2024 13:59:29.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex4.xml] has finished in [100] ms
+26-Sep-2024 13:59:29.525 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex5.xml]
+26-Sep-2024 13:59:29.526 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex5] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex5.xml] has been ignored
+26-Sep-2024 13:59:29.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex5.xml] has finished in [106] ms
+26-Sep-2024 13:59:29.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Human.xml]
+26-Sep-2024 13:59:29.641 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Human] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Human.xml] has been ignored
+26-Sep-2024 13:59:29.907 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Sep-2024 13:59:29.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Human.xml] has finished in [278] ms
+26-Sep-2024 13:59:29.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\InitParamAndContextParam.xml]
+26-Sep-2024 13:59:29.916 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/InitParamAndContextParam] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\InitParamAndContextParam.xml] has been ignored
+26-Sep-2024 13:59:30.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\InitParamAndContextParam.xml] has finished in [98] ms
+26-Sep-2024 13:59:30.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\JSP_Learning.xml]
+26-Sep-2024 13:59:30.029 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JSP_Learning] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\JSP_Learning.xml] has been ignored
+26-Sep-2024 13:59:30.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\JSP_Learning.xml] has finished in [131] ms
+26-Sep-2024 13:59:30.144 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE172481.xml]
+26-Sep-2024 13:59:30.147 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q1_HE172481] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE172481.xml] has been ignored
+26-Sep-2024 13:59:30.159 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE172481.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@25421809]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\PRJ301_PE_SU24_585258\PaperNo_3\All\given\Q1_HE172481\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+26-Sep-2024 13:59:30.167 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE172481.xml] has finished in [22] ms
+26-Sep-2024 13:59:30.167 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE173053.xml]
+26-Sep-2024 13:59:30.169 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q1_HE173053] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE173053.xml] has been ignored
+26-Sep-2024 13:59:30.177 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE173053.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@738a39cc]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Chuyên Ngành\SUM 2024\PRJ301\4user\PE\thi thu PE FA24 HOLA\HE173053-Phan Tuấn Huy\given\Q1_HE173053\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+26-Sep-2024 13:59:31.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE173053.xml] has finished in [993] ms
+26-Sep-2024 13:59:31.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE172481.xml]
+26-Sep-2024 13:59:31.162 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q2_HE172481] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE172481.xml] has been ignored
+26-Sep-2024 13:59:31.175 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE172481.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1255de25]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\PRJ301_PE_SU24_585258\PaperNo_3\All\given\Q2_HE172481\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+26-Sep-2024 13:59:31.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE172481.xml] has finished in [553] ms
+26-Sep-2024 13:59:31.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE173053.xml]
+26-Sep-2024 13:59:31.716 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q2_HE173053] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE173053.xml] has been ignored
+26-Sep-2024 13:59:31.726 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE173053.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@192f5f39]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Chuyên Ngành\SUM 2024\PRJ301\4user\PE\thi thu PE FA24 HOLA\HE173053-Phan Tuấn Huy\given\Q2_HE173053\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+26-Sep-2024 13:59:32.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE173053.xml] has finished in [387] ms
+26-Sep-2024 13:59:32.102 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE172481.xml]
+26-Sep-2024 13:59:32.106 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q3_HE172481] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE172481.xml] has been ignored
+26-Sep-2024 13:59:32.116 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE172481.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@32c0fecc]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\PRJ302_PE_SP24_Trial_220906\PaperNo_2\All\given\Q3_HE172481\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+26-Sep-2024 13:59:32.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE172481.xml] has finished in [19] ms
+26-Sep-2024 13:59:32.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE173053.xml]
+26-Sep-2024 13:59:32.124 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q3_HE173053] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE173053.xml] has been ignored
+26-Sep-2024 13:59:32.140 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE173053.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@be616f0]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Chuyên Ngành\SUM 2024\PRJ301\4user\PE\thi thu PE FA24 HOLA\HE173053-Phan Tuấn Huy\given\Q3_HE173053\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+26-Sep-2024 13:59:32.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE173053.xml] has finished in [636] ms
+26-Sep-2024 13:59:32.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SessionLoginLogout.xml]
+26-Sep-2024 13:59:32.760 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SessionLoginLogout] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SessionLoginLogout.xml] has been ignored
+26-Sep-2024 13:59:32.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SessionLoginLogout.xml] has finished in [165] ms
+26-Sep-2024 13:59:32.929 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml]
+26-Sep-2024 13:59:32.930 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SWP_OCMS] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has been ignored
+26-Sep-2024 13:59:35.802 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Sep-2024 13:59:35.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has finished in [2,981] ms
+26-Sep-2024 13:59:35.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\WebApplication1.xml]
+26-Sep-2024 13:59:35.910 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+26-Sep-2024 13:59:36.310 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Sep-2024 13:59:36.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\WebApplication1.xml] has finished in [409] ms
+26-Sep-2024 13:59:36.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Ws1_Cookie.xml]
+26-Sep-2024 13:59:36.320 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Ws1_Cookie] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Ws1_Cookie.xml] has been ignored
+26-Sep-2024 13:59:36.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Ws1_Cookie.xml] has finished in [80] ms
+26-Sep-2024 13:59:36.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\docs]
+26-Sep-2024 13:59:36.507 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\docs] has finished in [108] ms
+26-Sep-2024 13:59:36.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\examples]
+26-Sep-2024 13:59:37.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\examples] has finished in [1,252] ms
+26-Sep-2024 13:59:37.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\host-manager]
+26-Sep-2024 13:59:37.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\host-manager] has finished in [128] ms
+26-Sep-2024 13:59:37.888 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\manager]
+26-Sep-2024 13:59:37.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\manager] has finished in [78] ms
+26-Sep-2024 13:59:37.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\ROOT]
+26-Sep-2024 13:59:38.002 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\ROOT] has finished in [36] ms
+26-Sep-2024 13:59:38.007 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Sep-2024 13:59:38.227 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [15390] milliseconds
+26-Sep-2024 13:59:41.536 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SWP_OCMS]
+26-Sep-2024 13:59:41.606 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml]
+26-Sep-2024 13:59:41.608 WARNING [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SWP_OCMS] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has been ignored
+26-Sep-2024 13:59:42.842 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Sep-2024 13:59:42.862 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has finished in [1,255] ms
+26-Sep-2024 13:59:42.867 INFO [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SWP_OCMS]] after start() had already been called. The second call will be ignored.
+26-Sep-2024 14:00:18.946 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Sep-2024 14:00:18.946 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Sep-2024 14:00:18.957 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Sep-2024 14:00:19.152 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+26-Sep-2024 14:00:19.152 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@714d7c7b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [0195e9d4-66e7-4436-913f-4c39b1afbbd6-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+26-Sep-2024 14:00:19.187 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Sep-2024 14:00:19.204 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

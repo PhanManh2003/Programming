@@ -1,0 +1,16 @@
+23-Sep-2024 12:57:52.707 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Sep-2024 12:57:52.707 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Sep-2024 15:43:22.235 INFO [main] org.apache.catalina.core.ApplicationContext.log MyFilter:Initializing filter
+23-Sep-2024 15:43:22.308 INFO [main] org.apache.catalina.core.ApplicationContext.log MyFilter:Initializing filter
+23-Sep-2024 15:43:27.772 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Sep-2024 15:43:27.772 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Sep-2024 15:43:27.776 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2319c1e0')
+23-Sep-2024 20:37:58.748 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Sep-2024 20:37:58.748 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Sep-2024 20:39:56.648 INFO [main] org.apache.catalina.core.ApplicationContext.log MyFilter:Initializing filter
+23-Sep-2024 20:39:56.819 INFO [main] org.apache.catalina.core.ApplicationContext.log MyFilter:Initializing filter
+23-Sep-2024 20:40:02.048 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Sep-2024 20:40:02.048 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Sep-2024 20:40:02.051 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4c02899')
+23-Sep-2024 21:17:49.607 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Sep-2024 21:17:49.607 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

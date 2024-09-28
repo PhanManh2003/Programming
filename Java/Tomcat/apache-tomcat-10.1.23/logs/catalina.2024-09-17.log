@@ -1,0 +1,73 @@
+17-Sep-2024 12:08:07.389 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUD_With_Collection] has started
+17-Sep-2024 12:08:09.454 INFO [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 12:08:09.498 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUD_With_Collection] is completed
+17-Sep-2024 12:08:09.864 INFO [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUD_With_Collection] has started
+17-Sep-2024 12:08:10.388 INFO [http-nio-8080-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 12:08:10.403 INFO [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUD_With_Collection] is completed
+17-Sep-2024 12:09:39.845 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUD_With_Collection] has started
+17-Sep-2024 12:09:40.220 INFO [http-nio-8080-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 12:09:40.237 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/CRUD_With_Collection] is completed
+17-Sep-2024 22:14:03.365 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml]
+17-Sep-2024 22:14:03.399 WARNING [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SWP_OCMS] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has been ignored
+17-Sep-2024 22:14:05.026 INFO [http-nio-8080-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 22:14:05.075 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has finished in [1,701] ms
+17-Sep-2024 22:14:05.086 INFO [http-nio-8080-exec-53] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SWP_OCMS]] after start() had already been called. The second call will be ignored.
+17-Sep-2024 22:26:47.534 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+17-Sep-2024 22:26:49.711 INFO [http-nio-8080-exec-47] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 22:26:49.784 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+17-Sep-2024 22:28:19.603 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+17-Sep-2024 22:28:20.360 INFO [http-nio-8080-exec-48] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 22:28:20.374 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+17-Sep-2024 22:28:20.701 INFO [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+17-Sep-2024 22:28:21.675 INFO [http-nio-8080-exec-57] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 22:28:21.691 INFO [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+17-Sep-2024 22:34:47.627 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SWP_OCMS]
+17-Sep-2024 22:34:47.659 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml]
+17-Sep-2024 22:34:47.676 WARNING [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SWP_OCMS] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has been ignored
+17-Sep-2024 22:34:47.695 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1678)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:299)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7cc59687]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 24 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Programming\Java\JavaProject\SWP_OCMS\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 28 more
+17-Sep-2024 22:34:47.726 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has finished in [42] ms
+17-Sep-2024 22:40:49.719 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SWP_OCMS]
+17-Sep-2024 22:42:26.948 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml]
+17-Sep-2024 22:42:26.949 WARNING [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SWP_OCMS] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has been ignored
+17-Sep-2024 22:42:27.633 INFO [http-nio-8080-exec-62] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Sep-2024 22:42:27.653 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has finished in [706] ms
+17-Sep-2024 22:42:27.661 INFO [http-nio-8080-exec-73] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SWP_OCMS]] after start() had already been called. The second call will be ignored.

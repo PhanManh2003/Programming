@@ -1,0 +1,29 @@
+<form method="post" action="CalServlet">
+    <table>
+        <tr>
+            <td><label>First:</label></td>
+            <td><input type="number" name="first" value="5"></td>
+        </tr>
+        <tr>
+            <td><label>Second:</label></td>
+            <td><input type="number" name="second" value="4"></td>
+        </tr>
+        <tr>
+            <td><label>Operator:</label></td>
+            <td>
+                <select name="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Compute"></td>
+        </tr>
+        <tr>
+            <td><label>Result:</label></td>
+            <td><input type="number" name="result" value=""></td>
+        </tr>
+    </table>
+</form>

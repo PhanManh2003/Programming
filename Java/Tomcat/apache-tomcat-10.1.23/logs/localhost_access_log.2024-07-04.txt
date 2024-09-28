@@ -1,0 +1,14 @@
+127.0.0.1 - admin [04/Jul/2024:14:11:43 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [04/Jul/2024:14:11:43 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [04/Jul/2024:14:11:43 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [04/Jul/2024:14:11:43 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [04/Jul/2024:14:11:43 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [04/Jul/2024:14:11:43 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [04/Jul/2024:14:11:43 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [04/Jul/2024:14:11:43 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - admin [04/Jul/2024:14:11:43 +0700] "GET /manager/text/list HTTP/1.1" 200 2019
+127.0.0.1 - admin [04/Jul/2024:14:11:43 +0700] "GET /manager/text/list HTTP/1.1" 200 2019
+0:0:0:0:0:0:0:1 - - [04/Jul/2024:14:11:44 +0700] "GET /Q1_HE173053 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Jul/2024:14:11:44 +0700] "GET /Q1_HE173053/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jul/2024:14:11:47 +0700] "POST /Q1_HE173053/sum HTTP/1.1" 200 40
+0:0:0:0:0:0:0:1 - - [04/Jul/2024:14:15:22 +0700] "GET /CRUD_With_DB/login HTTP/1.1" 200 533

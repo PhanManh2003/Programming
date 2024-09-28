@@ -1,0 +1,69 @@
+10-Jul-2024 10:35:36.554 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Filter.xml]
+10-Jul-2024 10:35:36.606 WARNING [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Filter] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Filter.xml] has been ignored
+10-Jul-2024 10:35:37.012 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Filter.xml] has finished in [464] ms
+10-Jul-2024 10:35:37.015 INFO [http-nio-8080-exec-31] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Filter]] after start() had already been called. The second call will be ignored.
+10-Jul-2024 10:52:06.160 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterAuthentication.xml]
+10-Jul-2024 10:52:06.162 WARNING [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FilterAuthentication] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterAuthentication.xml] has been ignored
+10-Jul-2024 10:52:06.222 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterAuthentication.xml] has finished in [62] ms
+10-Jul-2024 10:52:06.226 INFO [http-nio-8080-exec-26] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FilterAuthentication]] after start() had already been called. The second call will be ignored.
+10-Jul-2024 11:00:04.429 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml]
+10-Jul-2024 11:00:04.430 WARNING [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FilterConfig] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml] has been ignored
+10-Jul-2024 11:00:04.582 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml] has finished in [152] ms
+10-Jul-2024 11:00:04.585 INFO [http-nio-8080-exec-31] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FilterConfig]] after start() had already been called. The second call will be ignored.
+10-Jul-2024 11:01:39.954 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/FilterConfig]
+10-Jul-2024 11:01:39.956 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] has started
+10-Jul-2024 11:01:40.044 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] is completed
+10-Jul-2024 11:02:39.196 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] has started
+10-Jul-2024 11:02:39.291 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] is completed
+10-Jul-2024 11:02:39.708 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] has started
+10-Jul-2024 11:02:39.826 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] is completed
+10-Jul-2024 11:02:40.692 SEVERE [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+10-Jul-2024 11:02:40.693 SEVERE [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.startInternal Context [/FilterConfig] startup failed due to previous errors
+10-Jul-2024 11:02:50.198 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/FilterConfig]
+10-Jul-2024 11:02:50.287 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+10-Jul-2024 11:02:50.288 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [/FilterConfig] startup failed due to previous errors
+10-Jul-2024 11:03:18.280 INFO [http-nio-8080-exec-31] org.apache.catalina.util.LifecycleBase.stop The stop() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FilterConfig]] after stop() had already been called. The second call will be ignored.
+10-Jul-2024 11:03:18.797 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FilterConfig]
+10-Jul-2024 11:03:18.815 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml]
+10-Jul-2024 11:03:18.817 WARNING [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FilterConfig] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml] has been ignored
+10-Jul-2024 11:03:18.885 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml] has finished in [70] ms
+10-Jul-2024 11:03:18.888 INFO [http-nio-8080-exec-35] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FilterConfig]] after start() had already been called. The second call will be ignored.
+10-Jul-2024 11:03:50.855 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/FilterConfig]
+10-Jul-2024 11:03:50.855 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] has started
+10-Jul-2024 11:03:51.006 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] is completed
+10-Jul-2024 11:04:11.097 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/FilterConfig]
+10-Jul-2024 11:04:11.098 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] has started
+10-Jul-2024 11:04:11.249 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] is completed
+10-Jul-2024 11:07:58.721 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] has started
+10-Jul-2024 11:07:58.777 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] is completed
+10-Jul-2024 11:08:56.009 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] has started
+10-Jul-2024 11:08:56.127 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] is completed
+10-Jul-2024 11:08:59.516 INFO [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] has started
+10-Jul-2024 11:08:59.635 INFO [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] is completed
+10-Jul-2024 11:09:31.801 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] has started
+10-Jul-2024 11:09:31.858 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterConfig] is completed
+10-Jul-2024 11:36:06.655 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterPT2.xml]
+10-Jul-2024 11:36:06.659 WARNING [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FilterPT2] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterPT2.xml] has been ignored
+10-Jul-2024 11:36:06.867 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterPT2.xml] has finished in [211] ms
+10-Jul-2024 11:36:06.872 INFO [http-nio-8080-exec-55] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FilterPT2]] after start() had already been called. The second call will be ignored.
+10-Jul-2024 11:38:52.630 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] has started
+10-Jul-2024 11:38:52.699 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] is completed
+10-Jul-2024 11:45:43.799 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] has started
+10-Jul-2024 11:45:44.081 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] is completed
+10-Jul-2024 11:46:19.558 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] has started
+10-Jul-2024 11:46:19.660 INFO [http-nio-8080-exec-65] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] is completed
+10-Jul-2024 11:46:20.911 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] has started
+10-Jul-2024 11:46:21.008 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] is completed
+10-Jul-2024 11:46:25.254 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] has started
+10-Jul-2024 11:46:25.418 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FilterPT2] is completed
+10-Jul-2024 11:48:28.814 INFO [http-nio-8080-exec-68] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FilterPT2]
+10-Jul-2024 11:48:28.837 INFO [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterPT2.xml]
+10-Jul-2024 11:48:28.843 WARNING [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/pt2] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterPT2.xml] has been ignored
+10-Jul-2024 11:48:28.992 INFO [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterPT2.xml] has finished in [149] ms
+10-Jul-2024 11:48:50.840 INFO [http-nio-8080-exec-78] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FilterPT2]
+10-Jul-2024 11:51:39.358 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jul-2024 11:51:39.407 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jul-2024 11:51:39.534 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jul-2024 11:51:42.042 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Assignment] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jul-2024 11:51:42.213 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jul-2024 11:51:42.314 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

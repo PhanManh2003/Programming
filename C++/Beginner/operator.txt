@@ -1,0 +1,32 @@
+Toán tử số học trong C++
+Toán tử	                            Miêu tả	             
++	            Cộng hai toán hạng	       
+-	            Trừ toán hạng thứ hai từ toán hạng đầu	
+*	            Nhân hai toán hạng	
+/	            Phép chia	
+%	            Phép lấy số dư	
+++	            Toán tử tăng (++), tăng giá trị toán hạng thêm một đơn vị	
+--	            Toán tử giảm (--), giảm giá trị toán hạng đi một đơn vị
+
+
+Toán tử logic trong C++
+Toán tử     	Miêu tả
+ &&	              AND 
+ ||	              OR 
+ !	              NOT
+
+
+Toán tử Bitwise
+Giả sử nếu A = 60; và B = 13; thì bây giờ trong định dạng nhị phân chúng sẽ là như sau:
+A = 0011 1100
+B = 0000 1101
+Các toán tử so sánh bit được hỗ trợ bởi ngôn ngữ C++ được liệt kê trong bảng dưới đây.
+Giá sử ta có biến A có giá tri 60 và biến B có giá trị 13, ta có:
+
+        Toán tử	                            Ví dụ
+    &	Toán tử AND 	            (A & B) sẽ cho kết quả là 12, tức là 0000 1100
+    |	Toán tử OR 	                (A | B) sẽ cho kết quả là 61, tức là 0011 1101
+    ^	Toán tử XOR 	            (A ^ B) sẽ cho kết quả là 49, tức là 0011 0001
+    ~	Toán tử NOT	                (~A ) sẽ cho kết quả là -61, tức là 1100 0011.
+    <<	Toán tử dịch trái. 	        A << 2 sẽ cho kết quả 240, tức là 1111 0000 (dịch sang trái hai bit)
+    >>	Toán tử dịch phải.      	A >> 2 sẽ cho kết quả là 15, tức là 0000 1111 (dịch sang phải hai bit)

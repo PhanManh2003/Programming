@@ -1,0 +1,30 @@
+Nhập sẵn thông tin về các sinh viên và admin trước!
+
+Step by step:
+
+-> validate:
+	- password
+	- username
+
+-> Tạo Menu + mời chọn:
+	"1. Đăng nhập"
+	"2. Thoát"
+
+-> Chọn 1: Yêu cầu nhập username và password
+
+Khi đăng nhập:
+	- tối đa 3 lần, quá 3 lần sai thì exit
+	=> Dùng vòng lặp while... <3 , for ... range(3):
+	- nếu nhập đúng thì thoát vòng lặp 
+
+-> Đăng nhập thành công:
+	- Check xem là sinh viên hay admin
+	- Hiển thị menu tương ứng với sinh viên hoặc admin
+		+ Là sinh viên:
+			1. "Xem điểm sinh viên đó"
+			2. "Thay đổi mật khẩu của mình"	
+		+ Là admin:
+			1. " Thêm 1 sinh viên "
+			2. " In sinh viên"
+			3. " Xóa sinh viên"
+

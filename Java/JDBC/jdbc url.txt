@@ -1,0 +1,1 @@
+jdbc:sqlserver://DESKTOP-MLOTP07\MANH:1433;databaseName=HE172481
