@@ -1,0 +1,733 @@
+30-Sep-2024 12:08:57.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.23
+30-Sep-2024 12:08:57.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 16 2024 12:17:18 UTC
+30-Sep-2024 12:08:57.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.23.0
+30-Sep-2024 12:08:57.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+30-Sep-2024 12:08:57.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+30-Sep-2024 12:08:57.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Sep-2024 12:08:57.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+30-Sep-2024 12:08:57.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.11+7-LTS-207
+30-Sep-2024 12:08:57.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+30-Sep-2024 12:08:57.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Programming\Java\Tomcat\apache-tomcat-10.1.23
+30-Sep-2024 12:08:57.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Programming\Java\Tomcat\apache-tomcat-10.1.23
+30-Sep-2024 12:08:57.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\logging.properties
+30-Sep-2024 12:08:57.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Sep-2024 12:08:57.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Sep-2024 12:08:57.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Sep-2024 12:08:57.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+30-Sep-2024 12:08:57.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+30-Sep-2024 12:08:57.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+30-Sep-2024 12:08:57.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+30-Sep-2024 12:08:57.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+30-Sep-2024 12:08:57.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Programming\Java\Tomcat\apache-tomcat-10.1.23
+30-Sep-2024 12:08:57.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Programming\Java\Tomcat\apache-tomcat-10.1.23
+30-Sep-2024 12:08:57.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\temp
+30-Sep-2024 12:08:57.272 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+30-Sep-2024 12:08:57.317 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+30-Sep-2024 12:08:57.749 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9998"]
+30-Sep-2024 12:08:57.791 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1151] milliseconds
+30-Sep-2024 12:08:57.890 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Sep-2024 12:08:57.890 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.23]
+30-Sep-2024 12:08:57.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Assignment.xml]
+30-Sep-2024 12:08:57.942 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Assignment] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Assignment.xml] has been ignored
+30-Sep-2024 12:09:00.391 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:09:00.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Assignment.xml] has finished in [2,629] ms
+30-Sep-2024 12:09:00.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletUltraSpeed.xml]
+30-Sep-2024 12:09:00.541 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CreateServletUltraSpeed] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletUltraSpeed.xml] has been ignored
+30-Sep-2024 12:09:00.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletUltraSpeed.xml] has finished in [65] ms
+30-Sep-2024 12:09:00.605 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletXML.xml]
+30-Sep-2024 12:09:00.606 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CreateServletXML] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletXML.xml] has been ignored
+30-Sep-2024 12:09:00.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CreateServletXML.xml] has finished in [156] ms
+30-Sep-2024 12:09:00.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_Collection.xml]
+30-Sep-2024 12:09:00.763 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CRUD_With_Collection] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_Collection.xml] has been ignored
+30-Sep-2024 12:09:01.584 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:09:01.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_Collection.xml] has finished in [993] ms
+30-Sep-2024 12:09:01.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_DB.xml]
+30-Sep-2024 12:09:01.763 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CRUD_With_DB] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_DB.xml] has been ignored
+30-Sep-2024 12:09:02.816 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:09:02.853 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\CRUD_With_DB.xml] has finished in [1,095] ms
+30-Sep-2024 12:09:02.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Filter.xml]
+30-Sep-2024 12:09:02.858 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Filter] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Filter.xml] has been ignored
+30-Sep-2024 12:09:02.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Filter.xml] has finished in [113] ms
+30-Sep-2024 12:09:02.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterAuthentication.xml]
+30-Sep-2024 12:09:02.972 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FilterAuthentication] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterAuthentication.xml] has been ignored
+30-Sep-2024 12:09:03.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterAuthentication.xml] has finished in [80] ms
+30-Sep-2024 12:09:03.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml]
+30-Sep-2024 12:09:03.053 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FilterConfig] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml] has been ignored
+30-Sep-2024 12:09:03.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FilterConfig.xml] has finished in [97] ms
+30-Sep-2024 12:09:03.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex1.xml]
+30-Sep-2024 12:09:03.152 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex1] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex1.xml] has been ignored
+30-Sep-2024 12:09:03.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex1.xml] has finished in [86] ms
+30-Sep-2024 12:09:03.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex3.xml]
+30-Sep-2024 12:09:03.238 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex3] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex3.xml] has been ignored
+30-Sep-2024 12:09:03.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex3.xml] has finished in [81] ms
+30-Sep-2024 12:09:03.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex4.xml]
+30-Sep-2024 12:09:03.324 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex4] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex4.xml] has been ignored
+30-Sep-2024 12:09:03.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex4.xml] has finished in [136] ms
+30-Sep-2024 12:09:03.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex5.xml]
+30-Sep-2024 12:09:03.459 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FORUSER_Ex5] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex5.xml] has been ignored
+30-Sep-2024 12:09:03.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\FORUSER_Ex5.xml] has finished in [114] ms
+30-Sep-2024 12:09:03.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Human.xml]
+30-Sep-2024 12:09:03.572 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Human] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Human.xml] has been ignored
+30-Sep-2024 12:09:03.774 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:09:03.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Human.xml] has finished in [208] ms
+30-Sep-2024 12:09:03.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\InitParamAndContextParam.xml]
+30-Sep-2024 12:09:03.780 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/InitParamAndContextParam] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\InitParamAndContextParam.xml] has been ignored
+30-Sep-2024 12:09:03.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\InitParamAndContextParam.xml] has finished in [39] ms
+30-Sep-2024 12:09:03.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\JSP_Learning.xml]
+30-Sep-2024 12:09:03.819 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JSP_Learning] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\JSP_Learning.xml] has been ignored
+30-Sep-2024 12:09:03.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\JSP_Learning.xml] has finished in [30] ms
+30-Sep-2024 12:09:03.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE172481.xml]
+30-Sep-2024 12:09:03.851 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q1_HE172481] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE172481.xml] has been ignored
+30-Sep-2024 12:09:03.858 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE172481.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4345fd45]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\PRJ301_PE_SU24_585258\PaperNo_3\All\given\Q1_HE172481\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+30-Sep-2024 12:09:03.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE172481.xml] has finished in [28] ms
+30-Sep-2024 12:09:03.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE173053.xml]
+30-Sep-2024 12:09:03.878 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q1_HE173053] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE173053.xml] has been ignored
+30-Sep-2024 12:09:03.890 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE173053.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@e706aa]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Chuyên Ngành\SUM 2024\PRJ301\4user\PE\thi thu PE FA24 HOLA\HE173053-Phan Tuấn Huy\given\Q1_HE173053\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+30-Sep-2024 12:09:04.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q1_HE173053.xml] has finished in [284] ms
+30-Sep-2024 12:09:04.161 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE172481.xml]
+30-Sep-2024 12:09:04.166 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q2_HE172481] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE172481.xml] has been ignored
+30-Sep-2024 12:09:04.193 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE172481.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7a62d697]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\PRJ301_PE_SU24_585258\PaperNo_3\All\given\Q2_HE172481\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+30-Sep-2024 12:09:04.386 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE172481.xml] has finished in [225] ms
+30-Sep-2024 12:09:04.387 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE173053.xml]
+30-Sep-2024 12:09:04.394 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q2_HE173053] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE173053.xml] has been ignored
+30-Sep-2024 12:09:04.414 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE173053.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5e8f0f98]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Chuyên Ngành\SUM 2024\PRJ301\4user\PE\thi thu PE FA24 HOLA\HE173053-Phan Tuấn Huy\given\Q2_HE173053\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+30-Sep-2024 12:09:04.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q2_HE173053.xml] has finished in [190] ms
+30-Sep-2024 12:09:04.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE172481.xml]
+30-Sep-2024 12:09:04.580 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q3_HE172481] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE172481.xml] has been ignored
+30-Sep-2024 12:09:04.589 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE172481.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1827fc4e]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\PRJ302_PE_SP24_Trial_220906\PaperNo_2\All\given\Q3_HE172481\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+30-Sep-2024 12:09:04.767 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE172481.xml] has finished in [189] ms
+30-Sep-2024 12:09:04.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE173053.xml]
+30-Sep-2024 12:09:04.774 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Q3_HE173053] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE173053.xml] has been ignored
+30-Sep-2024 12:09:04.787 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE173053.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:947)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:757)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@25421809]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4566)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4695)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\Chuyên Ngành\SUM 2024\PRJ301\4user\PE\thi thu PE FA24 HOLA\HE173053-Phan Tuấn Huy\given\Q3_HE173053\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 41 more
+30-Sep-2024 12:09:04.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Q3_HE173053.xml] has finished in [225] ms
+30-Sep-2024 12:09:04.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SessionLoginLogout.xml]
+30-Sep-2024 12:09:04.996 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SessionLoginLogout] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SessionLoginLogout.xml] has been ignored
+30-Sep-2024 12:09:05.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SessionLoginLogout.xml] has finished in [406] ms
+30-Sep-2024 12:09:05.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml]
+30-Sep-2024 12:09:05.403 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SWP_OCMS] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has been ignored
+30-Sep-2024 12:09:06.990 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:09:07.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has finished in [1,611] ms
+30-Sep-2024 12:09:07.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\WebApplication1.xml]
+30-Sep-2024 12:09:07.012 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+30-Sep-2024 12:09:07.159 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:09:07.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\WebApplication1.xml] has finished in [150] ms
+30-Sep-2024 12:09:07.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Ws1_Cookie.xml]
+30-Sep-2024 12:09:07.165 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Ws1_Cookie] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Ws1_Cookie.xml] has been ignored
+30-Sep-2024 12:09:07.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\Ws1_Cookie.xml] has finished in [42] ms
+30-Sep-2024 12:09:07.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\docs]
+30-Sep-2024 12:09:07.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\docs] has finished in [36] ms
+30-Sep-2024 12:09:07.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\examples]
+30-Sep-2024 12:09:07.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\examples] has finished in [750] ms
+30-Sep-2024 12:09:07.994 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\host-manager]
+30-Sep-2024 12:09:08.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\host-manager] has finished in [41] ms
+30-Sep-2024 12:09:08.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\manager]
+30-Sep-2024 12:09:08.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\manager] has finished in [34] ms
+30-Sep-2024 12:09:08.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\ROOT]
+30-Sep-2024 12:09:08.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\webapps\ROOT] has finished in [20] ms
+30-Sep-2024 12:09:08.099 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9998"]
+30-Sep-2024 12:09:08.185 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10392] milliseconds
+30-Sep-2024 12:09:10.874 INFO [http-nio-9998-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SWP_OCMS]
+30-Sep-2024 12:09:10.949 INFO [http-nio-9998-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml]
+30-Sep-2024 12:09:10.951 WARNING [http-nio-9998-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SWP_OCMS] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has been ignored
+30-Sep-2024 12:09:11.613 INFO [http-nio-9998-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:09:11.632 INFO [http-nio-9998-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has finished in [683] ms
+30-Sep-2024 12:09:11.637 INFO [http-nio-9998-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SWP_OCMS]] after start() had already been called. The second call will be ignored.
+30-Sep-2024 12:17:08.890 INFO [http-nio-9998-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 12:17:08.895 WARNING [http-nio-9998-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 12:17:10.969 INFO [http-nio-9998-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:17:11.237 INFO [http-nio-9998-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 12:25:54.081 WARNING [http-nio-9998-exec-28] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 12:25:54.084 SEVERE [http-nio-9998-exec-28] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@55f16a73]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [6524dd74-7450-4856-857d-6b40931b7fb5-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 12:25:54.085 SEVERE [http-nio-9998-exec-28] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@55f16a73]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [377f98fa-053a-4ff9-9cbb-cdb4f6f187b1-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 12:25:55.692 INFO [http-nio-9998-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:25:56.133 INFO [http-nio-9998-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 12:25:57.139 INFO [http-nio-9998-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:25:57.156 INFO [http-nio-9998-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 12:26:03.185 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/SWP_OCMS]
+30-Sep-2024 12:26:03.185 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 12:26:03.730 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:26:03.739 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 12:29:48.206 INFO [http-nio-9998-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 12:29:48.676 INFO [http-nio-9998-exec-34] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:29:48.686 INFO [http-nio-9998-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 12:30:31.813 INFO [http-nio-9998-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 12:30:32.463 INFO [http-nio-9998-exec-29] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:30:32.475 INFO [http-nio-9998-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 12:31:40.693 INFO [http-nio-9998-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 12:31:41.195 INFO [http-nio-9998-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:31:41.203 INFO [http-nio-9998-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 12:42:02.685 INFO [http-nio-9998-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 12:42:03.745 INFO [http-nio-9998-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 12:42:03.760 INFO [http-nio-9998-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 14:16:04.457 INFO [http-nio-9998-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 14:16:04.487 WARNING [http-nio-9998-exec-54] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 14:16:04.489 SEVERE [http-nio-9998-exec-54] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1639d319]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [3029f9a8-936c-4019-b2ee-a9436dac8b75-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 14:16:05.805 INFO [http-nio-9998-exec-54] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 14:16:05.817 INFO [http-nio-9998-exec-54] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 14:16:37.648 INFO [http-nio-9998-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 14:16:39.022 INFO [http-nio-9998-exec-59] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 14:16:39.051 INFO [http-nio-9998-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 14:16:46.166 INFO [http-nio-9998-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 14:16:46.933 INFO [http-nio-9998-exec-56] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 14:16:46.947 INFO [http-nio-9998-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 14:19:37.777 INFO [http-nio-9998-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 14:19:38.750 INFO [http-nio-9998-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 14:19:38.779 INFO [http-nio-9998-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 14:22:06.813 INFO [http-nio-9998-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 14:22:06.816 WARNING [http-nio-9998-exec-78] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 14:22:06.824 SEVERE [http-nio-9998-exec-78] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@8531a52]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [4631c30e-dabc-47cf-b155-a1e50acf1257-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 14:22:06.827 SEVERE [http-nio-9998-exec-78] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@8531a52]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [ab994aa4-d230-417c-90a2-259137541c09-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 14:22:06.827 SEVERE [http-nio-9998-exec-78] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@8531a52]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [8ad9bda7-011c-4909-8a90-bbc1152f5dd5-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 14:22:08.765 INFO [http-nio-9998-exec-78] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 14:22:08.811 INFO [http-nio-9998-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 14:23:14.371 INFO [http-nio-9998-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 14:23:14.385 WARNING [http-nio-9998-exec-86] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 14:23:15.332 INFO [http-nio-9998-exec-86] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 14:23:15.357 INFO [http-nio-9998-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 14:25:51.752 INFO [http-nio-9998-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 14:25:51.755 WARNING [http-nio-9998-exec-84] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 14:25:51.758 SEVERE [http-nio-9998-exec-84] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@1f9abfad]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [61c85980-e036-411b-a109-313a50970a5c-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 14:25:52.366 INFO [http-nio-9998-exec-84] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 14:25:52.380 INFO [http-nio-9998-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 14:25:53.219 INFO [http-nio-9998-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 14:25:53.774 INFO [http-nio-9998-exec-91] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 14:25:53.787 INFO [http-nio-9998-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 14:27:38.927 INFO [http-nio-9998-exec-95] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 14:27:39.605 INFO [http-nio-9998-exec-95] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 14:27:39.623 INFO [http-nio-9998-exec-95] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:19:54.001 INFO [http-nio-9998-exec-107] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:19:54.258 WARNING [http-nio-9998-exec-107] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 15:19:56.636 INFO [http-nio-9998-exec-107] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:19:56.664 INFO [http-nio-9998-exec-107] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:19:57.001 INFO [http-nio-9998-exec-111] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:19:57.853 INFO [http-nio-9998-exec-111] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:19:57.861 INFO [http-nio-9998-exec-111] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:20:35.633 INFO [http-nio-9998-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:20:36.200 INFO [http-nio-9998-exec-103] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:20:36.213 INFO [http-nio-9998-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:21:27.045 SEVERE [http-nio-9998-exec-109] dal.DBContext.<init> null
+	com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open database "OCMS" requested by the login. The login failed. ClientConnectionId:33bf0888-1ce1-45f8-b58a-1b80289674ef
+		at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:217)
+		at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:279)
+		at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:99)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4346)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3160)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:43)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3123)
+		at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7505)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2445)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1981)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1628)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1459)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:773)
+		at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1168)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+		at dal.DBContext.<init>(DBContext.java:19)
+		at dal.AccountDAO.<init>(AccountDAO.java:17)
+		at controller.dashboard.admin.ManageAccountController.listAccounts(ManageAccountController.java:80)
+		at controller.dashboard.admin.ManageAccountController.doGet(ManageAccountController.java:38)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:196)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:165)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+30-Sep-2024 15:32:51.565 WARNING [http-nio-9998-exec-125] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 15:32:51.565 SEVERE [http-nio-9998-exec-125] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6ba1e10f]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [799d8605-74f5-4510-90f0-e0b4124dfaaa-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:32:51.565 SEVERE [http-nio-9998-exec-125] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6ba1e10f]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [19615bed-2ddd-4b16-b267-28ac6508b219-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:32:51.565 SEVERE [http-nio-9998-exec-125] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6ba1e10f]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [8aeb57b0-6da3-42a6-b9d7-13f0a0f3dc3e-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:32:51.565 SEVERE [http-nio-9998-exec-125] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6ba1e10f]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [05ccc3b5-8d38-4b6c-b0f7-9cb1c2bd2d62-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:32:51.565 SEVERE [http-nio-9998-exec-125] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6ba1e10f]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [3a93e0ea-2366-403e-8490-802af20c92d7-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:32:52.205 INFO [http-nio-9998-exec-120] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:32:58.914 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/SWP_OCMS]
+30-Sep-2024 15:32:58.915 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:32:59.442 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:32:59.450 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:33:50.726 INFO [http-nio-9998-exec-124] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:33:59.624 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/SWP_OCMS]
+30-Sep-2024 15:33:59.624 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:33:59.628 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 15:34:00.341 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:34:00.359 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:34:36.868 INFO [http-nio-9998-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:34:36.875 WARNING [http-nio-9998-exec-123] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 15:34:37.756 INFO [http-nio-9998-exec-123] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:34:37.784 INFO [http-nio-9998-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:36:00.951 INFO [http-nio-9998-exec-134] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:36:00.953 WARNING [http-nio-9998-exec-134] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 15:36:00.954 SEVERE [http-nio-9998-exec-134] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@677e7957]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [c950afc0-6be7-4142-91b3-b7f42c358112-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:36:01.775 INFO [http-nio-9998-exec-134] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:36:01.797 INFO [http-nio-9998-exec-134] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:37:48.038 INFO [http-nio-9998-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:37:48.041 WARNING [http-nio-9998-exec-147] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 15:37:48.041 SEVERE [http-nio-9998-exec-147] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5fcc0cc3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [ae812f6e-2b93-4261-b262-425143e07592-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:37:48.042 SEVERE [http-nio-9998-exec-147] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5fcc0cc3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [02cbf531-8f5d-4619-a551-559ad41b5929-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:37:48.581 INFO [http-nio-9998-exec-147] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:37:48.593 INFO [http-nio-9998-exec-147] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:39:49.517 INFO [http-nio-9998-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:39:50.635 INFO [http-nio-9998-exec-150] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:39:50.652 INFO [http-nio-9998-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:43:38.104 INFO [http-nio-9998-exec-160] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:43:38.106 WARNING [http-nio-9998-exec-160] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 15:43:38.107 SEVERE [http-nio-9998-exec-160] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@177ad5cc]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [33296022-d50d-4978-9214-6b5e2aefe660-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:43:38.107 SEVERE [http-nio-9998-exec-160] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@177ad5cc]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [5a7d11f4-1eb1-426d-b8fa-ed357a42f05c-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:43:38.697 INFO [http-nio-9998-exec-160] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:43:38.871 INFO [http-nio-9998-exec-160] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:46:38.427 INFO [http-nio-9998-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:46:38.429 WARNING [http-nio-9998-exec-168] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 15:46:38.430 SEVERE [http-nio-9998-exec-168] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@38309a0e]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [48738190-9c0c-43ff-8803-676382d86ac2-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:46:39.851 INFO [http-nio-9998-exec-168] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:46:39.870 INFO [http-nio-9998-exec-168] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:46:43.486 INFO [http-nio-9998-exec-165] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:46:44.722 INFO [http-nio-9998-exec-165] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:46:44.735 INFO [http-nio-9998-exec-165] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:50:26.786 INFO [http-nio-9998-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:50:26.788 WARNING [http-nio-9998-exec-178] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 15:50:26.788 SEVERE [http-nio-9998-exec-178] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@434d40a7]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [f79d6bdb-f508-426c-82d0-45b2b6d9c89e-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 15:50:27.355 INFO [http-nio-9998-exec-178] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:50:27.366 INFO [http-nio-9998-exec-178] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:50:44.252 INFO [http-nio-9998-exec-176] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:50:44.945 INFO [http-nio-9998-exec-176] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:50:44.953 INFO [http-nio-9998-exec-176] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:50:48.987 INFO [http-nio-9998-exec-186] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:50:49.507 INFO [http-nio-9998-exec-186] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:50:49.515 INFO [http-nio-9998-exec-186] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:51:05.273 INFO [http-nio-9998-exec-187] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:51:06.084 INFO [http-nio-9998-exec-187] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:51:06.094 INFO [http-nio-9998-exec-187] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:51:10.964 INFO [http-nio-9998-exec-183] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:51:11.709 INFO [http-nio-9998-exec-183] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:51:11.728 INFO [http-nio-9998-exec-183] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:51:43.872 INFO [http-nio-9998-exec-176] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:51:44.557 INFO [http-nio-9998-exec-176] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:51:44.567 INFO [http-nio-9998-exec-176] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:51:50.417 INFO [http-nio-9998-exec-187] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:51:51.427 INFO [http-nio-9998-exec-187] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:51:51.461 INFO [http-nio-9998-exec-187] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:53:49.780 INFO [http-nio-9998-exec-195] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:53:50.665 INFO [http-nio-9998-exec-195] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:53:50.680 INFO [http-nio-9998-exec-195] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 15:54:15.454 INFO [http-nio-9998-exec-192] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 15:54:16.228 INFO [http-nio-9998-exec-192] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 15:54:16.242 INFO [http-nio-9998-exec-192] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:07:11.557 INFO [http-nio-9998-exec-208] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:07:11.564 WARNING [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 16:07:11.565 SEVERE [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@53fad8f8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [2b7eb361-0669-410b-b3ef-7500a3cef584-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:07:11.566 SEVERE [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@53fad8f8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [5ac795fa-12f8-4dff-af9d-e127fb6e530b-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:07:11.566 SEVERE [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@53fad8f8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [beafe43a-dca8-466b-ab0e-425c2a127a53-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:07:11.566 SEVERE [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@53fad8f8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [d4a889d2-4d4c-46d4-add9-d19ec4d3ae1f-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:07:11.566 SEVERE [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@53fad8f8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [deb6680b-a326-49d9-819a-5abede946986-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:07:11.566 SEVERE [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@53fad8f8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [ce9b8dc0-5732-4248-834c-f0a7a12b4f93-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:07:11.566 SEVERE [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@53fad8f8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [f83e89f8-7a2b-4003-8769-a70a37a87439-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:07:11.796 SEVERE [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@53fad8f8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [f941482d-cde2-4603-aef0-9e4101be03b5-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:07:11.796 SEVERE [http-nio-9998-exec-208] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@53fad8f8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [86ded108-e099-4f83-87c5-b7bf5f3146c1-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:07:12.852 INFO [http-nio-9998-exec-208] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:07:12.892 INFO [http-nio-9998-exec-208] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:07:34.500 INFO [http-nio-9998-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:07:34.501 WARNING [http-nio-9998-exec-202] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 16:07:35.065 INFO [http-nio-9998-exec-202] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:07:35.078 INFO [http-nio-9998-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:07:37.164 INFO [http-nio-9998-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:07:37.867 INFO [http-nio-9998-exec-203] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:07:37.878 INFO [http-nio-9998-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:07:46.014 INFO [http-nio-9998-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:07:46.647 INFO [http-nio-9998-exec-203] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:07:46.661 INFO [http-nio-9998-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:20:09.332 WARNING [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 16:20:09.332 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [4b71cee0-d37f-43b3-85ee-1192a7a3aa2b-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:09.333 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [f9ed601c-88dc-4f10-990f-4da1bd73c462-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:09.333 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [48e9ab4c-e6c0-4eee-89be-6b4f810a32bb-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:09.333 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [2af8f5d4-4c1d-4934-95ed-af49a0ef1ba3-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:09.333 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [b9eb53f6-36d4-4582-9592-a69bf30b94d7-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:09.334 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [c84b2be4-bc96-4f8a-9252-ba7275c004f6-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:09.334 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [61c65318-948f-4fe9-9141-51830eb0826e-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:09.516 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [8a564ab8-f947-4520-b928-49b7adf85ffc-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:09.516 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [5145e192-be49-40df-87fd-bae869a529c1-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:09.516 SEVERE [http-nio-9998-exec-222] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@5b068304]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [536f49ad-e6a8-4acc-8c63-8b922c548323-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:20:10.375 INFO [http-nio-9998-exec-217] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:20:10.615 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/SWP_OCMS]
+30-Sep-2024 16:20:10.615 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:20:11.153 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:20:11.163 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:36:59.248 WARNING [http-nio-9998-exec-235] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 16:36:59.262 SEVERE [http-nio-9998-exec-235] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6403198b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [66d5b3de-b820-4b6d-ba10-eeb8296ca1c9-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:36:59.262 SEVERE [http-nio-9998-exec-235] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6403198b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [cd2a333b-c647-40b9-ad0b-ef2062e33a78-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:36:59.262 SEVERE [http-nio-9998-exec-235] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6403198b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [0ae44bf0-6a47-452b-9905-35f453b2e5ea-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:36:59.262 SEVERE [http-nio-9998-exec-235] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6403198b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [af66e942-0e52-4bfe-aabd-5ca072f38f19-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:36:59.263 SEVERE [http-nio-9998-exec-235] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6403198b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [5439212d-17c4-43d9-a628-3a48fb029615-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:36:59.263 SEVERE [http-nio-9998-exec-235] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6403198b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [bdb8519e-a8c1-42e6-8e5c-c7a8d45c8c13-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:36:59.263 SEVERE [http-nio-9998-exec-235] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6403198b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [888283f8-fcba-495f-8cb6-fd0f73b14ca2-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:36:59.362 SEVERE [http-nio-9998-exec-235] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6403198b]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [99dbea6b-33a9-4a80-b839-fa29a04cb254-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:36:59.891 INFO [http-nio-9998-exec-235] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/SWP_OCMS]
+30-Sep-2024 16:36:59.964 INFO [http-nio-9998-exec-238] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml]
+30-Sep-2024 16:36:59.981 WARNING [http-nio-9998-exec-238] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SWP_OCMS] in deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has been ignored
+30-Sep-2024 16:37:01.228 INFO [http-nio-9998-exec-238] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:37:01.267 INFO [http-nio-9998-exec-238] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\Programming\Java\Tomcat\apache-tomcat-10.1.23\conf\Catalina\localhost\SWP_OCMS.xml] has finished in [1,280] ms
+30-Sep-2024 16:37:01.270 INFO [http-nio-9998-exec-236] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/SWP_OCMS]] after start() had already been called. The second call will be ignored.
+30-Sep-2024 16:37:57.233 INFO [http-nio-9998-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:37:58.032 INFO [http-nio-9998-exec-239] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:37:58.054 INFO [http-nio-9998-exec-239] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:38:16.628 INFO [http-nio-9998-exec-246] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:38:16.630 WARNING [http-nio-9998-exec-246] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 16:38:16.630 SEVERE [http-nio-9998-exec-246] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@2b7ad7bd]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [110cac6f-676c-411a-9d15-49b2139870fa-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 16:38:17.713 INFO [http-nio-9998-exec-246] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:38:17.722 INFO [http-nio-9998-exec-246] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:54:05.627 INFO [http-nio-9998-exec-252] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:54:05.678 WARNING [http-nio-9998-exec-252] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 16:54:06.808 INFO [http-nio-9998-exec-252] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:54:06.906 INFO [http-nio-9998-exec-252] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:56:36.113 INFO [http-nio-9998-exec-254] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:56:36.916 INFO [http-nio-9998-exec-254] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:56:36.923 INFO [http-nio-9998-exec-254] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 16:59:31.861 INFO [http-nio-9998-exec-261] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 16:59:32.367 INFO [http-nio-9998-exec-261] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 16:59:32.376 INFO [http-nio-9998-exec-261] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 17:08:42.992 INFO [http-nio-9998-exec-278] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 17:08:43.349 WARNING [http-nio-9998-exec-278] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 17:08:43.386 SEVERE [http-nio-9998-exec-278] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@2d286a0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [e1472251-0ac2-4f45-ab57-8dba8d8b7c30-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 17:08:43.386 SEVERE [http-nio-9998-exec-278] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@2d286a0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [6e0875b7-5f88-41c1-b436-3b3ef508c55d-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 17:08:48.890 INFO [http-nio-9998-exec-278] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 17:08:48.957 INFO [http-nio-9998-exec-278] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 17:09:06.309 INFO [http-nio-9998-exec-273] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 17:09:08.365 INFO [http-nio-9998-exec-273] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 17:09:08.380 INFO [http-nio-9998-exec-273] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 17:09:14.544 INFO [http-nio-9998-exec-274] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 17:09:15.264 INFO [http-nio-9998-exec-274] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 17:09:15.278 INFO [http-nio-9998-exec-274] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed
+30-Sep-2024 17:10:59.754 INFO [http-nio-9998-exec-287] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] has started
+30-Sep-2024 17:10:59.759 WARNING [http-nio-9998-exec-287] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [SWP_OCMS] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Sep-2024 17:10:59.760 SEVERE [http-nio-9998-exec-287] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@cb341d2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [fec0ee8c-0cf6-49e1-9ccd-eb0a59dbaa80-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 17:10:59.760 SEVERE [http-nio-9998-exec-287] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [SWP_OCMS] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@cb341d2]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [05fe0d02-3b4e-404b-8159-7973e6306fa5-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+30-Sep-2024 17:11:02.229 INFO [http-nio-9998-exec-287] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Sep-2024 17:11:02.241 INFO [http-nio-9998-exec-287] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/SWP_OCMS] is completed

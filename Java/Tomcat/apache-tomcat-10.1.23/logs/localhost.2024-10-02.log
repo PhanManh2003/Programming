@@ -1,0 +1,5 @@
+02-Oct-2024 12:58:01.145 INFO [main] org.apache.catalina.core.ApplicationContext.log MyFilter:Initializing filter
+02-Oct-2024 12:58:01.298 INFO [main] org.apache.catalina.core.ApplicationContext.log MyFilter:Initializing filter
+02-Oct-2024 12:58:09.444 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+02-Oct-2024 12:58:09.444 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+02-Oct-2024 12:58:09.448 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@279e85eb')
