@@ -1,13 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package Interface;
 
-/**
- *
- * @author manhpthe172481
- */
 public interface IEatable {
+
     void eat();
+
+    default void defaultMethod() {
+        System.out.println("This is a default method.");
+    }
+
+    static void staticMethod() {
+        System.out.println("static method");
+    }
+
 }

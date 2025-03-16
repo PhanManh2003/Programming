@@ -14,7 +14,7 @@ public class Entry {
         chứ toán tử này không hề so sánh tới các thuộc tính của đối tượng.*/
     public static void main(String[] args) {
         Student s1 = new Student(1000, "Viet", "Bac Ninh");
-        Student s2 = new Student(1000, "Viet", "Bac Ninh");
+        Student s2 = new Student(1000, "Viet", "Bac Ninh2");
         System.out.println(s1.equals(s2));
     }
 }

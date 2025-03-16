@@ -8,7 +8,7 @@ public class Validator {
 
     private static final Scanner SCANNER = new Scanner(System.in);
 
-    private Validator() {
+    Validator() {
     }
 
     public static int getInt(String messageInfo,

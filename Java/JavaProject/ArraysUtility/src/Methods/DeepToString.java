@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Methods;
 
 import java.util.Arrays;
 
-/**
- *
- * @author manhpthe172481
- */
 public class DeepToString {
 // Phương thức Arrays.deepToString() được sử dụng để nhận được biểu diễn chuỗi của các mảng đa chiều.
 

@@ -1,15 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+ 
 package Methods;
 
 import java.util.Arrays;
-
-/**
- *
- * @author manhpthe172481
- */
+ 
 public class CopyOfRange {
 //copyOfRange() được sử dụng để sao chép một phần của một mảng vào mảng khác cùng kiểu. 
     public static void main(String args[]) {

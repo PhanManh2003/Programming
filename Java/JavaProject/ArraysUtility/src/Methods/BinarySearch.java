@@ -1,22 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Methods;
 
 import java.util.Arrays;
 
-/**
- *
- * @author manhpthe172481
- */
 public class BinarySearch {
 
     /* Phương thức binarySearch() được sử dụng để tìm vị trí của phần tử trong mảng
 bằng phương thức tìm kiếm nhị phân (binary search). Các phần tử trong mảng 
 phải được sắp xếp trước khi gọi phương thức này. Nếu chưa sắp xếp, kết quả sẽ ko đúng */
-
-
  /* Lưu ý: Không có phương thức binarySearch()
 trong lớp Arrays cho các phần tử kiểu boolean của mảng. */
     public static void main(String args[]) {

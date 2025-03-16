@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+ 
 package down_casting;
 
-/**
- *
- * @author manhpthe172481
- */
+ 
 public class Entry {
 
     /*
@@ -40,7 +34,8 @@ public class Entry {
     public static void main(String[] args) {
         Animal animal = new Dog(); // Upcasting
 
-        if (animal instanceof Dog) { // ~ bien double d = 3 thì d trỏ đến 1 số nguyên nên áp dụng int i = (int) d dc
+        if (animal instanceof Dog) { 
+    // ~~ bien double d = 3 thì d trỏ đến 1 số nguyên nên áp dụng int i = (int) d dc
             // nếu animal trỏ đến Cat() thì lỗi ClassCastException
             // nên mới cần toán tử instanceof
             Dog dog = (Dog) animal; // Safe downcasting

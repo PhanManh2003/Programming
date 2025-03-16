@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package compare_2_Objects;
 
-/**
- *
- * @author manhpthe172481
- */
 public class Student {
 
     public int id;
@@ -22,6 +14,9 @@ public class Student {
 
     @Override
     public boolean equals(Object obj) {
-        return this.id == ((Student) obj).id;
+        return this.id == ((Student) obj).id
+                && this.name.equalsIgnoreCase(((Student) obj).name)
+                && this.address.equalsIgnoreCase(
+                        ((Student) obj).address);
     }
 }

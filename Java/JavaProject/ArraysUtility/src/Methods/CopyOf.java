@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Methods;
 
 import java.util.Arrays;
 
-/**
- *
- * @author manhpthe172481
- */
 public class CopyOf {
 //    Phương thức copyOf() được sử dụng để sao chép mảng được chỉ định vào mảng mới của cùng một kiểu.
 
@@ -46,5 +38,3 @@ public class CopyOf {
         System.out.println(Arrays.toString(str1)); // [java, j2ee, struts, hibernate, null, null, null]
     }
 }
-
-

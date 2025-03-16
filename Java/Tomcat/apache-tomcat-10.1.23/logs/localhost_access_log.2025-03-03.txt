@@ -1,0 +1,14 @@
+127.0.0.1 - - [03/Mar/2025:13:17:09 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [03/Mar/2025:13:17:10 +0700] "GET /manager/text/ HTTP/1.1" 401 2562
+127.0.0.1 - admin [03/Mar/2025:13:17:12 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [03/Mar/2025:13:17:13 +0700] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [03/Mar/2025:13:17:13 +0700] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - admin [03/Mar/2025:13:17:13 +0700] "GET /manager/text/list HTTP/1.1" 200 2623
+127.0.0.1 - admin [03/Mar/2025:13:17:18 +0700] "GET /manager/text/undeploy?path=/Edunext HTTP/1.1" 200 67
+0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:24:45 +0700] "GET /IMS HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:24:46 +0700] "GET /IMS/ HTTP/1.1" 200 245
+0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:27:11 +0700] "GET /IMS/LoginControllerTest HTTP/1.1" 200 571
+0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:27:20 +0700] "POST /IMS/LoginControllerTest HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:27:20 +0700] "GET /IMS/ProductControllerTest HTTP/1.1" 200 8336
+0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:27:21 +0700] "GET /IMS/LoginControllerTest HTTP/1.1" 200 571
+0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:27:24 +0700] "POST /IMS/LoginControllerTest HTTP/1.1" 200 599

@@ -131,19 +131,17 @@ public class Slot2 {
                 System.out.println("Nhap sai kieu du lieu");
             }
         }
-        double sum = 0 ;
+        double sum = 0;
         int prev_n = n;
-        while(n !=0 ){
-            sum += Math.pow((double)(n%10),3);
+        while (n != 0) {
+            sum += Math.pow((double) (n % 10), 3);
             n /= 10;
         }
-        if ((int)sum == prev_n) {
+        if ((int) sum == prev_n) {
             System.out.println("Amstrong");
         } else {
             System.out.println("Not Amstrong");
         }
-        
-        
 
     }
 }

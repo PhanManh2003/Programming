@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package slot3;
 
 import java.util.Scanner;
 
-/**
- *
- * @author manhpthe172481
- */
 public class Slot3_Array {
 
     /**
@@ -42,7 +34,7 @@ public class Slot3_Array {
             {7, 8, 9}
         };
 
-        // Khai báo mảng 2 chiều
+        // Khai báo mảng 2 chiều ( mảng chứa các mảng)
         int[][] twoDArray;
         // Khởi tạo mảng với kích thước cụ thể
         twoDArray = new int[3][];

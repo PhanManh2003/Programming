@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package abstract_class;
 
-/**
- *
- * @author manhpthe172481
- */
 public abstract class Person {
 
     private String name;
@@ -35,5 +27,5 @@ public abstract class Person {
     public void setAddress(String address) {
         this.address = address;
     }
-    
+
 }

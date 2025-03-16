@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3143db9a-62d4-4743-ac1b-3f025619ec19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/JavaProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/src/main/java/training/exam/entity/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/src/main/java/training/exam/entity/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/src/main/java/training/exam/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/src/main/java/training/exam/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Finance_Tracker/src/main/java/training/exam/service/FinanceTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Human2/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Human2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Human2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Human2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Human2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Human2/Human2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj_Demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj_Demo/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj_Demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj_Demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj_Demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj_Demo/Intellj_Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Intellj_Demo/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-jdbc-1/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-jdbc-1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysUtility/build/classes/Methods/AsList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysUtility/build/classes/Methods/AsList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysUtility/build/classes/Methods/Equals.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysUtility/build/classes/Methods/Equals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysUtility/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysUtility/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysUtility/src/Methods/AsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysUtility/src/Methods/AsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArraysUtility/src/Methods/Equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ArraysUtility/src/Methods/Equals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment_PRJ/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment_PRJ/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD With DB/build/web/WEB-INF/classes/dal/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD With DB/build/web/WEB-INF/classes/dal/ProductDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD With DB/src/java/dal/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD With DB/src/java/dal/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CandidateManagement/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CandidateManagement/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CandidateManagement/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CandidateManagement/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CandidateManagement/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CandidateManagement/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CandidateManagement/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CandidateManagement/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarPrj/build/classes/Com/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CarPrj/build/classes/Com/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarPrj/build/classes/Com/BrandList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CarPrj/build/classes/Com/BrandList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarPrj/build/classes/Com/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CarPrj/build/classes/Com/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarPrj/build/classes/Com/CarList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CarPrj/build/classes/Com/CarList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarPrj/build/classes/Com/CarManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CarPrj/build/classes/Com/CarManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarPrj/build/classes/Com/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CarPrj/build/classes/Com/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarPrj/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CarPrj/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Character/build/classes/character/Character_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Character/build/classes/character/Character_test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Character/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Character/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Character/src/character/Character_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Character/src/character/Character_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChuaDeThiThu/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ChuaDeThiThu/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection_Collections/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection_Collections/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection_Collections/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection_Collections/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection_Collections/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection_Collections/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection_Collections/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection_Collections/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/src/CollectionsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collection_Collections/src/Collection_Collections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comparison/build/classes/Comparator/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Comparison/build/classes/Comparator/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comparison/build/classes/Comparator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Comparison/build/classes/Comparator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comparison/build/classes/Comparator/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Comparison/build/classes/Comparator/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comparison/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Comparison/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comparison/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Comparison/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comparison/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Comparison/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Comparison/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Comparison/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountCharacter/build/classes/entity/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CountCharacter/build/classes/entity/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountCharacter/build/classes/entity/Counter_Tokenizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CountCharacter/build/classes/entity/Counter_Tokenizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountCharacter/build/classes/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CountCharacter/build/classes/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountCharacter/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CountCharacter/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountCharacter/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CountCharacter/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountCharacter/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CountCharacter/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CountCharacter/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CountCharacter/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Human/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Human/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Buffer_Stream/Overview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Buffer_Stream/R_BufferInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Buffer_Stream/R_BufferReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Buffer_Stream/W_BufferOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Buffer_Stream/W_BufferWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Byte_Stream/R_ByteStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Byte_Stream/W_ByteStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Character_Stream/R_CharStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Character_Stream/W_CharStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Intro/CreateFile_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Intro/R_BufferedInputStream_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Intro/R_BufferedReader_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/build/classes/Scanner/ReadFile_Scanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Buffer_Stream/Overview.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Buffer_Stream/Overview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Buffer_Stream/R_BufferInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Buffer_Stream/R_BufferInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Buffer_Stream/R_BufferReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Buffer_Stream/R_BufferReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Buffer_Stream/W_BufferOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Buffer_Stream/W_BufferOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Buffer_Stream/W_BufferWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Buffer_Stream/W_BufferWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Byte_Stream/R_ByteStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Byte_Stream/R_ByteStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Byte_Stream/W_ByteStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Byte_Stream/W_ByteStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Character_Stream/R_CharStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Character_Stream/R_CharStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Character_Stream/W_CharStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Character_Stream/W_CharStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Intro/CreateFile_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Intro/CreateFile_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Intro/R_BufferedInputStream_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Intro/R_BufferedInputStream_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Intro/R_BufferedReader_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Intro/R_BufferedReader_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IO_File/src/Scanner/ReadFile_Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot10_IO_File/src/Scanner/ReadFile_Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerStudent/build/classes/utils/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerStudent/build/classes/utils/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerStudent/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerStudent/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerStudent/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerStudent/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerStudent/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerStudent/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerStudent/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerStudent/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerStudent/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerStudent/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerStudent/src/business/ManagerStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerStudent/src/business/ManagerStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerStudent/src/utils/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerStudent/src/utils/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/business/ManagerSalaryHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/business/ManagerSalaryHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/business/ManagerWorker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/business/ManagerWorker$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/business/ManagerWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/business/ManagerWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/business/WorkerInputter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/business/WorkerInputter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/entity/SalaryHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/entity/SalaryHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/entity/SalaryStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/entity/SalaryStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/entity/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/entity/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/utils/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/utils/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/build/classes/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/build/classes/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManagerWorker/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ManagerWorker/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/build/classes/business/ManagerTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/build/classes/business/ManagerTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/build/classes/business/TaskInputter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/build/classes/business/TaskInputter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/build/classes/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/build/classes/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/build/classes/entity/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/build/classes/entity/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/build/classes/entity/TaskType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/build/classes/entity/TaskType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/build/classes/utils/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/build/classes/utils/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/build/classes/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/build/classes/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TaskManagement/src/business/TaskInputter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TaskManagement/src/business/TaskInputter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Workshop6/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Workshop6/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot2/build/classes/slot2/Slot2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot2/build/classes/slot2/Slot2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot2/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot2/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot2/src/slot2/BuggyCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot2/src/slot2/Slot2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot2/src/slot2/Slot2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot3/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot3/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot3/src/slot3/Slot3_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot3/src/slot3/Slot3_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot4/build/classes/slot4/Slot4_string.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot4/build/classes/slot4/StringBuilderGuide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot4/build/classes/slot4/StringTokenizerGuide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot4/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot4/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot4/src/slot4/Slot4_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot4/src/string/Slot4_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot4/src/slot4/StringBuilderGuide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot4/src/string/StringBuilderGuide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot4/src/slot4/StringTokenizerGuide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot4/src/string/StringTokenizerGuide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot5/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot5/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/PointOxy_overloading/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/PointOxy_overloading/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/Student/Entry_student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/Student/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/overloading/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/overloading/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/staticc/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/build/classes/staticc/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/src/PointOxy_overloading/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/src/PointOxy_overloading/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/src/PointOxy_overloading/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/src/PointOxy_overloading/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/src/Student/Entry_student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/src/Student/Entry_student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/src/Student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/src/Student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/src/overloading/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/src/overloading/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/src/overloading/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/src/overloading/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/src/staticc/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/src/staticc/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot6/src/staticc/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot6_static/src/staticc/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/build/classes/inheritance/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/build/classes/inheritance/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/build/classes/inheritance/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/build/classes/overide/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/build/classes/overide/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/build/classes/overide/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/src/Inheritance/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/src/Inheritance/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/src/Inheritance/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/src/Inheritance/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/src/Inheritance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/src/Inheritance/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/src/overide/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/src/overide/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/src/overide/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/src/overide/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot7/src/overide/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot7_Inheritance_Overide/src/overide/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/Interface/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/Interface/Bird.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/Interface/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/Interface/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/Interface/IEatable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/Interface/IEatable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/abstract_class/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/abstract_class/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/abstract_class/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/abstract_class/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/abstract_class/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/abstract_class/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/abstract_class/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/abstract_class/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/baitap_polymorphism/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/baitap_polymorphism/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/baitap_polymorphism/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/baitap_polymorphism/Duck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/baitap_polymorphism/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/baitap_polymorphism/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/compare_2_Objects/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/compare_2_Objects/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/compare_2_Objects/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/compare_2_Objects/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/down_casting/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/down_casting/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/down_casting/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/down_casting/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/down_casting/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/down_casting/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/toString/Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/toString/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/up_casting/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/up_casting/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/build/classes/variable_Hiding/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/build/classes/variable_Hiding/Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/Interface/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/Interface/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/Interface/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/Interface/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/Interface/IEatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/Interface/IEatable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/abstract_class/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/abstract_class/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/abstract_class/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/abstract_class/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/abstract_class/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/abstract_class/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/abstract_class/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/abstract_class/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/baitap_polymorphism/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/baitap_polymorphism/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/baitap_polymorphism/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/baitap_polymorphism/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/baitap_polymorphism/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/baitap_polymorphism/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/compare_2_Objects/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/compare_2_Objects/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/compare_2_Objects/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/compare_2_Objects/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/down_casting/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/down_casting/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/down_casting/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/down_casting/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/down_casting/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/down_casting/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/toString/Entry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/toString/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/up_casting/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/up_casting/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot8/src/variable_Hiding/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot8/src/variable_Hiding/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/build/classes/info/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/build/classes/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/build/classes/management/IStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/build/classes/management/StudentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/build/classes/validate/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/manifest.mf" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/manifest.mf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/src/info/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/src/info/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/src/management/IStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/src/management/IStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/src/management/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/src/management/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/src/validate/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/src/validate/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slot9/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../slot9_MiniProject/student.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop1/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop1/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop2/build/classes/L2_part1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop2/build/classes/L2_part1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop2/build/classes/L2_part2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop2/build/classes/L2_part2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop2/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop2/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop3/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop3/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop4/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop4/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop5A/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop5A/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../workshop5B/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../workshop5B/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-07-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-09-30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-10-01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-10-02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/catalina.2024-10-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-07-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-09-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-09-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-09-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-09-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-09-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-09-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-09-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-09-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-09-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-10-01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-10-02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/localhost.2024-10-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-07-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-07-07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-07-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-07-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-07-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-07-13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-07-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-07-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-07-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-09-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-09-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-09-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-09-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-09-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-09-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-09-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-09-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-09-30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/logs/manager.2024-10-02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/CRUD_With_DB/org/apache/jsp/list_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/CRUD_With_DB/org/apache/jsp/list_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/CRUD_With_DB/org/apache/jsp/list_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/CRUD_With_DB/org/apache/jsp/list_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/CRUD_With_DB/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/CRUD_With_DB/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/authen/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/authen/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/css_002dfile_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/css_002dfile_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/dashboard/avatar_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/dashboard/avatar_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/dashboard/sideBar_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/dashboard/sideBar_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/home/css_002dhome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/home/css_002dhome_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/home/footer_002dhome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/home/footer_002dhome_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/home/header_002dhome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/home/header_002dhome_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/home/js_002dhome_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/home/js_002dhome_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/js_002dfile_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/common/js_002dfile_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/dashboard/admin/edit_002daccount_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/dashboard/admin/edit_002daccount_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/dashboard/admin/manage_002daccount_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/dashboard/admin/manage_002daccount_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/dashboard/profile_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/dashboard/profile_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/homepage/home_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tomcat/apache-tomcat-10.1.23/work/Catalina/localhost/SWP_OCMS/org/apache/jsp/view/homepage/home_jsp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2sieLWHfbBR1w0KUVJlrdudlvVE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Programming/Java/JavaProject/Intellj"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3143db9a-62d4-4743-ac1b-3f025619ec19" name="Changes" comment="" />
+      <created>1738942766346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738942766346</updated>
+    </task>
+    <servers />
+  </component>
+</project>
