@@ -1,0 +1,11 @@
+Hoạt động giống với Java:
+
+1. Java thì : java sourcecode(.java) ----- compliler -----> bytecode(.class) ----- JVM (JIT compiler) -----> machine code
+
+2. C# : 	C# sourcecode(.cs) ----- compiler ----> MSIL (MS Intermediate Language .exe .dll) ----CLR (JIT compiler) ---> machine code
+
+Chú thích : JIT = just in time = runtime (not build time)
+
+Solution (.sln) -> gom nhiều project lại
+ └── Project (.csproj)
+       └── Class (.cs)
