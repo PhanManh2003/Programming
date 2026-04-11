@@ -5,7 +5,7 @@ public class Entry {
     public static void main(String[] args) {
         /* BIẾN STATIC
    - biến static có thể truy cập mà không cần tạo đối tượng 
-   - biến static được chia sẻ bởi tất cả các đối tượng trong chương trình
+   - Biến static được chia sẻ bởi tất cả các object của cùng một class
          */
 
  /* PHƯƠNG THỨC STATIC
