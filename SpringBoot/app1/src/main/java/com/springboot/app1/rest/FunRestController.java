@@ -12,6 +12,11 @@ public class FunRestController {
     // expose "/" endpoint that return Hello world
     @GetMapping
     public String sayHello(){
-        return "Hello world";
+        return "Hello world dm";
+    }
+
+    @GetMapping("/devtool")
+    public String checkDevTools(){
+        return "Hello devtooaaa";
     }
 }
