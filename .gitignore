@@ -41,3 +41,4 @@ Java/Tomcat/apache-tomcat-10.1.23/logs/*.log
 /Java/JavaProject/4user/FORUSER_Ex1/dist/
 **/nbproject/private/
 *.class
+*.zip
