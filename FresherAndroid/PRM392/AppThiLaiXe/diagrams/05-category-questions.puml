@@ -1,0 +1,99 @@
+@startuml Category Questions Flow
+title Học Câu Hỏi Theo Chủ Đề - Category Questions Flow
+
+actor User
+participant "CategoryQuestionsActivity" as CategoryQ
+participant "QuestionDao" as QDao
+database "Room Database" as DB
+participant "ProgressManager" as Progress
+participant "CategoryQuestionResultActivity" as Result
+
+User -> CategoryQ: Chọn một bài học
+activate CategoryQ
+
+CategoryQ -> QDao: getByLesson(categoryId)
+activate QDao
+QDao -> DB: SELECT * FROM questions\nWHERE lessonId = ?
+activate DB
+DB --> QDao: List<Question>
+deactivate DB
+QDao --> CategoryQ: questions
+deactivate QDao
+
+CategoryQ -> CategoryQ: currentIndex = 0
+CategoryQ -> CategoryQ: displayQuestion()
+
+CategoryQ -> User: Hiển thị câu hỏi:\n- Số thứ tự câu hỏi\n- Nội dung câu hỏi\n- Hình ảnh (nếu có)\n- 4 đáp án (A, B, C, D)\n- Progress bar
+
+loop Người dùng làm từng câu hỏi
+    User -> CategoryQ: Chọn một đáp án (A/B/C/D)
+    
+    CategoryQ -> CategoryQ: selectAnswer(selected)
+    
+    CategoryQ -> CategoryQ: Kiểm tra đáp án:\nif (selected == correctAnswer)
+    
+    alt Đáp án đúng
+        CategoryQ -> User: Đổi màu đáp án đã chọn → Xanh lá
+        CategoryQ -> CategoryQ: correctCount++
+        
+    else Đáp án sai
+        CategoryQ -> User: Đổi màu đáp án đã chọn → Đỏ
+        CategoryQ -> User: Highlight đáp án đúng → Xanh lá
+        CategoryQ -> CategoryQ: wrongCount++
+    end
+    
+    CategoryQ -> User: Hiển thị phần giải thích:\n- Đáp án đúng là: X\n- Giải thích chi tiết
+    
+    CategoryQ -> CategoryQ: disableOptions()\nKhông cho chọn lại
+    
+    CategoryQ -> Progress: updateProgress(userId, questionId)
+    activate Progress
+    
+    Progress -> DB: INSERT OR UPDATE\nINTO studies (userId, questionId)\nVALUES (?, ?)
+    activate DB
+    DB --> Progress: Success
+    deactivate DB
+    
+    Progress --> CategoryQ: Progress updated
+    deactivate Progress
+    
+    alt User nhấn "Câu tiếp theo" (Next)
+        User -> CategoryQ: Nhấn button Next
+        
+        alt Còn câu hỏi tiếp theo
+            CategoryQ -> CategoryQ: currentIndex++
+            CategoryQ -> CategoryQ: displayQuestion()
+            CategoryQ -> User: Hiển thị câu hỏi tiếp theo
+            
+        else Đã hết câu hỏi (câu cuối cùng)
+            CategoryQ -> Result: startActivity(intent)\n+ putExtra("correctCount", correctCount)\n+ putExtra("wrongCount", wrongCount)\n+ putExtra("totalCount", totalCount)\n+ putExtra("lessonName", lessonName)
+            activate Result
+            
+            CategoryQ -> CategoryQ: finish()
+            deactivate CategoryQ
+            
+            Result -> User: Hiển thị màn hình kết quả
+            deactivate Result
+        end
+        
+    else User nhấn "Câu trước đó" (Previous)
+        User -> CategoryQ: Nhấn button Previous
+        
+        alt Không phải câu đầu tiên
+            CategoryQ -> CategoryQ: currentIndex--
+            CategoryQ -> CategoryQ: displayQuestion()
+            CategoryQ -> User: Hiển thị câu hỏi trước đó
+        end
+    end
+end
+
+note right of CategoryQ
+  Tính năng:
+  - Hiển thị hình ảnh câu hỏi (Glide)
+  - Giải thích chi tiết sau khi chọn
+  - Không cho phép chọn lại sau khi đã trả lời
+  - Cập nhật tiến độ học vào DB
+  - Navigation: Previous/Next
+end note
+
+@enduml

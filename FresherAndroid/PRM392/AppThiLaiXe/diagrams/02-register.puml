@@ -1,0 +1,71 @@
+@startuml Register Flow
+title Đăng Ký Tài Khoản - Register Flow
+
+actor User
+participant "RegisterActivity" as Register
+participant "UserDao" as DAO
+database "Room Database" as DB
+participant "LoginActivity" as Login
+
+User -> Register: Nhấn "Đăng ký" từ Login
+activate Register
+
+User -> Register: Nhập thông tin:\n- Họ và tên\n- Email\n- Mật khẩu\n- Xác nhận mật khẩu
+User -> Register: Tích checkbox "Đồng ý điều khoản"
+User -> Register: Nhấn "Đăng ký"
+
+Register -> Register: Validate toàn bộ input
+
+alt Validation thất bại
+    Register -> User: Hiển thị lỗi tương ứng:\n- "Vui lòng nhập họ và tên"\n- "Email không hợp lệ"\n- "Mật khẩu quá ngắn (< 6 ký tự)"\n- "Mật khẩu không khớp"\n- "Vui lòng đồng ý điều khoản"
+    
+else Validation thành công
+    Register -> DAO: getUserByEmail(email)
+    activate DAO
+    
+    DAO -> DB: Query user WHERE email = ?
+    activate DB
+    DB --> DAO: User object hoặc null
+    deactivate DB
+    
+    DAO --> Register: User object hoặc null
+    deactivate DAO
+    
+    alt Email đã tồn tại
+        Register -> User: Toast "Email đã được sử dụng"
+        Register -> User: Giữ ở màn hình Register
+        
+    else Email chưa tồn tại (có thể đăng ký)
+        Register -> Register: Tạo User object mới:\n- fullName\n- email\n- password (hashed nếu có)\n- createdAt = now
+        
+        Register -> DAO: insert(user)
+        activate DAO
+        
+        DAO -> DB: INSERT INTO users VALUES (...)
+        activate DB
+        DB --> DAO: userId (long)
+        deactivate DB
+        
+        DAO --> Register: userId
+        deactivate DAO
+        
+        Register -> User: Toast "Đăng ký thành công!"
+        
+        Register -> Login: startActivity(intent)
+        activate Login
+        
+        Register -> Register: finish()
+        deactivate Register
+        
+        Login -> User: Hiển thị màn hình Login
+        deactivate Login
+    end
+end
+
+note right of Register
+  Tùy chọn khác:
+  - Nhấn "Đã có tài khoản" 
+    → Quay về LoginActivity
+end note
+
+@enduml

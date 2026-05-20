@@ -10,7 +10,7 @@ public class Entry {
 
  /* PHƯƠNG THỨC STATIC
 - Phương thức static có để được gọi mà không cần phải khởi tạo đối tượng.
-- Trong cùng 1 lớp , phương thức static chỉ có thể gọi tới thuộc tính/ phương thức là static
+- Trong cùng 1 lớp, phương thức static chỉ có thể gọi tới thuộc tính/ phương thức là static
          */
         Counter c1 = new Counter();
         Counter c2 = new Counter();

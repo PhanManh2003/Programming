@@ -1,0 +1,75 @@
+@startuml Exam Result Flow
+title Kết Quả Thi - Exam Result Flow
+
+actor User
+participant "ExamResultActivity" as Result
+participant "AnswerReviewActivity" as Review
+participant "ExamActivity" as Exam
+participant "HomeActivity" as Home
+
+User -> Result: Hoàn thành bài thi
+activate Result
+
+Result -> Result: loadData() từ Intent:\n- total_questions\n- correct_answers\n- wrong_answers\n- skipped_questions\n- time_taken\n- answer_reviews\n- testId
+
+Result -> Result: Tính toán:\npercentage = (correct * 100) / total
+
+alt Điểm >= 80%
+    Result -> User: Hiển thị:\n- Icon thành công ✓\n- Status: "ĐẠT" (màu xanh)\n- Message: "Chúc mừng! Bạn đã vượt qua bài thi"\n- Score: correct/total\n- Percentage: XX%
+    
+else Điểm < 80%
+    Result -> User: Hiển thị:\n- Icon thất bại ✗\n- Status: "KHÔNG ĐẠT" (màu đỏ)\n- Message: "Bạn chưa đạt yêu cầu. Hãy thử lại nhé!"\n- Score: correct/total\n- Percentage: XX%
+end
+
+Result -> User: Hiển thị thống kê chi tiết:\n- Tổng số câu: XX\n- Câu đúng: XX\n- Câu sai: XX\n- Câu bỏ qua: XX\n- Thời gian: XX:XX
+
+Result -> User: Hiển thị 3 nút action:\n1. "Xem đáp án"\n2. "Thi lại"\n3. "Về trang chủ"
+
+alt User chọn "Xem đáp án"
+    User -> Result: Nhấn button "Xem đáp án"
+    
+    Result -> Review: startActivity(intent)\n+ putExtra("title", "Kết quả thi")\n+ putExtra("answers", answerReviews)
+    activate Review
+    
+    Review -> User: Hiển thị danh sách câu trả lời:\n- Câu hỏi\n- Đáp án đã chọn\n- Đáp án đúng\n- Giải thích\n- Icon đúng/sai
+    
+    User -> Review: Xem chi tiết từng câu
+    User -> Review: Filter: Tất cả/Đúng/Sai
+    
+    User -> Review: Nhấn Back
+    Review -> Review: finish()
+    deactivate Review
+    
+    User -> Result: Quay lại màn kết quả
+    
+else User chọn "Thi lại"
+    User -> Result: Nhấn button "Thi lại"
+    
+    Result -> Exam: startActivity(intent)\n+ putExtra("testId", testId)
+    activate Exam
+    
+    Result -> Result: finish()
+    deactivate Result
+    
+    Exam -> User: Bắt đầu bài thi mới với cùng testId
+    deactivate Exam
+    
+else User chọn "Về trang chủ"
+    User -> Result: Nhấn button "Về trang chủ"
+    
+    Result -> Result: finish()
+    deactivate Result
+    
+    User -> Home: Quay về màn hình Home
+end
+
+note right of Result
+  Tính năng:
+  - Hiển thị kết quả đạt/không đạt
+  - Thống kê chi tiết (đúng/sai/bỏ qua)
+  - Icon và màu sắc trực quan
+  - 3 options: Xem đáp án, Thi lại, Về Home
+  - Có thể mở rộng: Lưu lịch sử thi vào DB
+end note
+
+@enduml

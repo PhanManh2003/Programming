@@ -1,0 +1,92 @@
+@startuml Answer Review Flow
+title Xem Đáp Án Chi Tiết - Answer Review Flow
+
+actor User
+participant "AnswerReviewActivity" as Review
+participant "AnswerReviewAdapter" as Adapter
+participant "RecyclerView" as RV
+
+User -> Review: Nhấn "Xem đáp án" từ ExamResult
+activate Review
+
+Review -> Review: getDataFromIntent():\n- title (tiêu đề)\n- answers (List<AnswerReview>)
+
+Review -> Review: Tính toán:\n- correctCount\n- wrongCount\n- skippedCount
+
+Review -> Review: initViews()
+Review -> Review: setupRecyclerView()
+
+Review -> Adapter: new AnswerReviewAdapter(allAnswers)
+activate Adapter
+
+Review -> RV: setAdapter(adapter)
+activate RV
+
+Review -> Review: displaySummary():\n- Số câu đúng: XX\n- Số câu sai: XX\n- Số câu bỏ qua: XX (nếu có)
+
+Review -> Review: applyFilter("ALL")\nMặc định hiển thị tất cả
+
+Review -> User: Hiển thị:\n- Summary (số câu đúng/sai/bỏ qua)\n- 3 nút filter: Tất cả, Đúng, Sai\n- Danh sách câu hỏi với RecyclerView
+
+loop Người dùng tương tác với danh sách
+    
+    alt User áp dụng filter
+        User -> Review: Nhấn button filter\n(Tất cả / Đúng / Sai)
+        
+        Review -> Review: applyFilter(filterType)
+        
+        alt Filter = "ALL"
+            Review -> Review: filteredAnswers = allAnswers
+            
+        else Filter = "CORRECT"
+            Review -> Review: filteredAnswers = answers\nwhere isCorrect() == true
+            
+        else Filter = "WRONG"
+            Review -> Review: filteredAnswers = answers\nwhere isCorrect() == false\nAND isAnswered() == true
+        end
+        
+        Review -> Adapter: updateData(filteredAnswers)
+        Adapter -> RV: notifyDataSetChanged()
+        RV -> User: Cập nhật danh sách hiển thị
+    end
+    
+    User -> RV: Scroll xem các câu hỏi
+    
+    RV -> Adapter: onBindViewHolder(position)
+    
+    Adapter -> Adapter: Bind data cho mỗi item:\n- Số câu hỏi\n- Nội dung câu hỏi\n- Đáp án đã chọn (nếu có)\n- Đáp án đúng\n- Giải thích\n- Icon (✓ nếu đúng, ✗ nếu sai)
+    
+    alt Câu trả lời đúng
+        Adapter -> RV: Hiển thị:\n- Background xanh lá nhạt\n- Icon ✓ màu xanh\n- Text "Đúng"
+        
+    else Câu trả lời sai
+        Adapter -> RV: Hiển thị:\n- Background đỏ nhạt\n- Icon ✗ màu đỏ\n- Text "Sai"\n- Đánh dấu rõ đáp án đã chọn (sai)\n- Đánh dấu rõ đáp án đúng
+        
+    else Câu bỏ qua
+        Adapter -> RV: Hiển thị:\n- Background xám nhạt\n- Text "Chưa trả lời"\n- Chỉ hiển thị đáp án đúng
+    end
+    
+    RV -> User: Hiển thị item chi tiết
+    
+end
+
+User -> Review: Nhấn nút Back
+Review -> Review: finish()
+deactivate Review
+deactivate RV
+deactivate Adapter
+
+note right of Review
+  Tính năng:
+  - Hiển thị danh sách tất cả câu hỏi
+  - Filter theo trạng thái (Tất cả/Đúng/Sai)
+  - Hiển thị chi tiết mỗi câu:
+    + Câu hỏi
+    + Đáp án đã chọn (highlight)
+    + Đáp án đúng (highlight)
+    + Giải thích
+  - Màu sắc trực quan (xanh/đỏ/xám)
+  - RecyclerView cho hiệu suất tốt
+end note
+
+@enduml

@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">AppThiLaiXe</string>
+
+    <!-- Home Screen -->
+    <string name="home_subtitle">Ôn tập và thi lái xe dễ dàng</string>
+    <string name="start_exam">Bắt Đầu Thi Thử</string>
+    <string name="learn_now">Học Ngay</string>
+    <string name="why_choose_us">Tại Sao Chọn AppThiLaiXe?</string>
+
+    <!-- Benefits -->
+    <string name="benefit_questions">1000+ Câu Hỏi</string>
+    <string name="benefit_questions_desc">Ngân hàng câu hỏi đầy đủ theo chuẩn thi lái xe</string>
+
+    <string name="benefit_timer">Thi Thử Thực Tế</string>
+    <string name="benefit_timer_desc">Đếm ngược thời gian như thi thật, chuẩn bị tốt nhất</string>
+
+    <string name="benefit_stats">Thống Kê Chi Tiết</string>
+    <string name="benefit_stats_desc">Theo dõi tiến độ học tập và điểm yếu của bạn</string>
+
+    <string name="benefit_offline">Học Offline</string>
+    <string name="benefit_offline_desc">Học mà không cần kết nối internet, tiện lợi mọi lúc</string>
+
+    <!-- Stats -->
+    <string name="stat_questions">1000+</string>
+    <string name="stat_questions_label">Câu Hỏi</string>
+
+    <string name="stat_success_rate">95%</string>
+    <string name="stat_success_rate_label">Tỷ Lệ Đậu</string>
+
+    <string name="stat_users">50K+</string>
+    <string name="stat_users_label">Người Dùng</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Đăng Nhập</string>
+    <string name="login_subtitle">Chào mừng bạn trở lại!</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="login_button">Đăng Nhập</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="no_account">Chưa có tài khoản?</string>
+    <string name="register_now">Đăng ký ngay</string>
+    <string name="or_continue_with">Hoặc tiếp tục với</string>
+    <string name="login_with_google">Google</string>
+    <string name="login_with_facebook">Facebook</string>
+    <string name="skip_login">Bỏ qua</string>
+
+    <!-- Register Screen -->
+    <string name="register_title">Đăng Ký</string>
+    <string name="register_subtitle">Tạo tài khoản để bắt đầu học</string>
+    <string name="full_name_hint">Fullname</string>
+    <string name="phone_hint">Số Điện Thoại</string>
+    <string name="confirm_password_hint">Xác Nhận Mật Khẩu</string>
+    <string name="register_button">Đăng Ký</string>
+    <string name="agree_terms">Tôi đồng ý với</string>
+    <string name="terms_conditions">Điều khoản &amp; Điều kiện</string>
+    <string name="have_account">Đã có tài khoản?</string>
+    <string name="login_now">Đăng nhập ngay</string>
+
+    <!-- Exam Screen -->
+    <string name="exam_title">Thi Thử</string>
+    <string name="back">Quay Lại</string>
+    <string name="timer">Thời Gian</string>
+    <string name="progress">Tiến Độ</string>
+    <string name="question_number">Câu 1</string>
+    <string name="question_image">Hình Ảnh Câu Hỏi</string>
+    <string name="selected">Đã Chọn</string>
+    <string name="previous">Quay Lại</string>
+    <string name="next">Tiếp Theo</string>
+
+    <!-- Learning Screen -->
+    <string name="learning_title">Học Tập</string>
+    <string name="learning_subtitle">Chọn danh mục để bắt đầu học</string>
+    <string name="search_category">Tìm kiếm danh mục...</string>
+    <string name="category">Danh Mục</string>
+    <string name="questions">Câu Hỏi</string>
+    <string name="completed">Hoàn Thành</string>
+    <string name="start">Bắt Đầu</string>
+    <string name="empty">Trống</string>
+    <string name="no_categories">Không có danh mục nào</string>
+
+    <!-- Exam Result Screen -->
+    <string name="exam_result_title">Kết Quả Thi</string>
+    <string name="exam_type">Thi Thử Lái Xe</string>
+    <string name="passed">ĐẠT</string>
+    <string name="failed">CHƯA ĐẠT</string>
+    <string name="statistics_title">Thống Kê Chi Tiết</string>
+    <string name="total_questions_label">Tổng Số Câu</string>
+    <string name="correct_answers_label">Câu Đúng</string>
+    <string name="wrong_answers_label">Câu Sai</string>
+    <string name="skipped_questions_label">Bỏ Qua</string>
+    <string name="time_taken_label">Thời Gian Hoàn Thành</string>
+    <string name="view_answers">Xem Đáp Án</string>
+    <string name="retake_exam">Thi Lại</string>
+    <string name="go_home">Về Trang Chủ</string>
+</resources>

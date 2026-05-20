@@ -1,0 +1,58 @@
+@startuml Login Flow
+title Đăng Nhập - Login Flow
+
+actor User
+participant "LoginActivity" as Login
+participant "UserDao" as DAO
+database "Room Database" as DB
+participant "HomeActivity" as Home
+
+User -> Login: Mở ứng dụng
+activate Login
+
+User -> Login: Nhập email và password
+User -> Login: Nhấn "Đăng nhập"
+
+Login -> Login: Validate input\n- Email không trống\n- Password không trống
+
+alt Validation thành công
+    Login -> DAO: login(email, password)
+    activate DAO
+    
+    DAO -> DB: Query user\nWHERE email = ? AND password = ?
+    activate DB
+    DB --> DAO: User object hoặc null
+    deactivate DB
+    
+    DAO --> Login: User object hoặc null
+    deactivate DAO
+    
+    alt User tồn tại (đăng nhập thành công)
+        Login -> User: Toast "Đăng nhập thành công!"
+        
+        Login -> Home: startActivity(intent)\n+ putExtra("userId", userId)
+        activate Home
+        
+        Login -> Login: finish()
+        deactivate Login
+        
+        Home -> User: Hiển thị màn hình Home
+        deactivate Home
+        
+    else User không tồn tại (sai thông tin)
+        Login -> User: Toast "Sai email hoặc mật khẩu!"
+        Login -> User: Giữ ở màn hình Login
+    end
+    
+else Validation thất bại
+    Login -> User: Hiển thị lỗi validation\n- "Vui lòng nhập email"\n- "Vui lòng nhập mật khẩu"
+end
+
+note right of Login
+  Các tùy chọn khác:
+  - Nhấn "Đăng ký" → RegisterActivity
+  - Nhấn "Bỏ qua" → HomeActivity (không đăng nhập)
+  - Nhấn "Quên mật khẩu" → Coming soon
+end note
+
+@enduml

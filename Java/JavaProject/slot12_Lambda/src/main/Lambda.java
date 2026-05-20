@@ -3,23 +3,34 @@ package main;
 
 /*
 Lambda Expression (biểu thức Lambda) có thể được định nghĩa là một hàm ẩn danh,
-cho phép người dùng chuyển các phương thức làm đối số. 
-Điều này giúp loại bỏ rất nhiều mã soạn sẵn.
+là cách viết function ngắn gọn mà không cần tạo class hay method đầy đủ.
 
 Lambda Expression là một hàm không có tên và không thuộc bất kỳ lớp nào,
 không có phạm vi truy cập (private, public hoặc protected),
 không khai báo kiểu trả về.
 
-Cú Pháp: (argument-list) -> {body}
+Cú pháp: (parameters) -> expression hoặc (parameters) -> { statements;}
+Ý nghĩa: Lambda = "Với X → làm Y"
 
-Argument-list: có thể không có, có một hoặc nhiều tham số
-Arrow-token: được sử dụng để liên kết arguments-list và body của biểu thức.
-Body: chứa các biểu thức và câu lệnh cho biểu thức lambda.
+Lambda chỉ dùng được với Functional Interface! FI là interface có duy nhất 1 phương thức abstract.
+Chính vì chỉ có 1 phương thức abstract, nên lambda function ko cần tên.
 
-----------------
-Functional Interface là interface chỉ có một phương thức trừu tượng.
-Lambda expressions được sử dụng để triển khai các functional interface mà ko cần
-phải tạo 1 lớp implement rồi override cái interface đó.
+Các Functional Interface có sẵn:
+
+Interface           |       Method          |       Lambda Example
+
+Runnable            |   void run()          |       () -> System.out.println("Run")
+Consumer<T>         | void accept(T t)              s -> System.out.println(s)
+Supplier<T>             T get()                     () -> "Hello"
+Function<T,R>           R apply(T t)                x -> x * 2
+Predicate<T>            boolean test(T t)           x -> x > 5
+Comparator<T>           int compare(T t1, T t2)     (a, b) -> a - b
+
+
+-----Ý nghĩa ra đời : Lambda giải quyết 2 vấn đề cực khó là truyền behavior và closure -------
+
+
+
 
  */
 public class Lambda {

@@ -1,0 +1,55 @@
+@startuml Home Screen
+title Màn Hình Chính - Home Screen
+
+actor User
+participant "HomeActivity" as Home
+participant "ExamActivity" as Exam
+participant "LearningActivity" as Learning
+
+User -> Home: Vào màn hình Home
+activate Home
+
+alt User đã đăng nhập
+    note right of Home
+      userId được truyền từ LoginActivity
+      intent.putExtra("userId", userId)
+    end note
+else User chưa đăng nhập (Skip)
+    note right of Home
+      userId = -1 hoặc không có
+      Vẫn có thể sử dụng một số tính năng
+    end note
+end
+
+Home -> User: Hiển thị các tùy chọn:\n- "Thi thử"\n- "Học ngay"
+
+alt User chọn "Thi thử"
+    User -> Home: Nhấn button "Thi thử"
+    
+    Home -> Exam: startActivity(intent)\n+ putExtra("testId", testId)
+    activate Exam
+    
+    Exam -> User: Màn hình làm bài thi
+    deactivate Exam
+    
+else User chọn "Học ngay"
+    User -> Home: Nhấn button "Học ngay"
+    
+    Home -> Learning: startActivity(intent)\n+ putExtra("userId", userId)
+    activate Learning
+    
+    Learning -> User: Màn hình danh sách bài học
+    deactivate Learning
+end
+
+deactivate Home
+
+note right of Home
+  Các tính năng có thể mở rộng:
+  - Xem lịch sử thi
+  - Quản lý profile
+  - Thống kê tiến độ học tập
+  - Settings
+end note
+
+@enduml

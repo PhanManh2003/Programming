@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style cho Button Login -->
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_fb_login</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

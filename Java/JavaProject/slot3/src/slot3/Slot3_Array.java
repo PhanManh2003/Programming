@@ -9,6 +9,7 @@ public class Slot3_Array {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Nhap n: ");
         int n = sc.nextInt();
         // Declare array a of 10 integers
         int[] a = new int[n];

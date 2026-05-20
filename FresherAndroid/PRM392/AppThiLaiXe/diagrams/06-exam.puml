@@ -1,0 +1,104 @@
+@startuml Exam Flow
+title Làm Bài Thi - Exam Flow
+
+actor User
+participant "ExamActivity" as Exam
+participant "QuestionDao" as QDao
+database "Room Database" as DB
+participant "CountDownTimer" as Timer
+participant "ExamResultActivity" as Result
+
+User -> Exam: Nhấn "Thi thử" từ Home
+activate Exam
+
+Exam -> QDao: getQuestionsByTestId(testId)
+activate QDao
+QDao -> DB: SELECT * FROM questions\nWHERE testId = ?\nORDER BY RANDOM()\nLIMIT 25
+activate DB
+DB --> QDao: List<Question> (25 câu)
+deactivate DB
+QDao --> Exam: questions
+deactivate QDao
+
+Exam -> Exam: Initialize:\n- currentQuestion = 1\n- totalQuestions = 25\n- timeLeftInMillis = 45 * 60 * 1000 (45 phút)\n- userAnswers = new HashMap<>()
+
+Exam -> Timer: startTimer()
+activate Timer
+
+Exam -> Exam: loadQuestion()
+Exam -> User: Hiển thị:\n- Đề bài câu hỏi 1\n- 4 đáp án (A, B, C, D)\n- Timer đếm ngược: 45:00\n- Progress: 1/25
+
+loop Làm bài thi (còn thời gian)
+    Timer -> Exam: Mỗi giây: onTick()
+    Exam -> Exam: timeLeftInMillis -= 1000
+    Exam -> Exam: updateTimerDisplay()
+    Exam -> User: Cập nhật timer UI\n(vd: 44:59, 44:58,...)
+    
+    par Người dùng tương tác
+        alt User chọn đáp án
+            User -> Exam: Nhấn vào một đáp án (A/B/C/D)
+            Exam -> Exam: selectAnswer(answer)
+            Exam -> Exam: userAnswers.put(currentQuestion-1, answer)
+            Exam -> User: Đánh dấu checkbox đáp án đã chọn
+            
+        else User chuyển câu tiếp theo
+            User -> Exam: Nhấn button "Next"
+            
+            alt Chưa phải câu cuối
+                Exam -> Exam: currentQuestion++
+                Exam -> Exam: loadQuestion()
+                Exam -> Exam: Restore đáp án đã chọn (nếu có)
+                Exam -> User: Hiển thị câu hỏi tiếp theo
+                
+            else Câu cuối cùng
+                Exam -> User: Button "Next" đổi thành "Submit"
+            end
+            
+        else User quay lại câu trước
+            User -> Exam: Nhấn button "Previous"
+            
+            alt Không phải câu đầu
+                Exam -> Exam: currentQuestion--
+                Exam -> Exam: loadQuestion()
+                Exam -> Exam: Restore đáp án đã chọn
+                Exam -> User: Hiển thị câu hỏi trước đó
+            end
+            
+        else User nộp bài
+            User -> Exam: Nhấn button "Submit"
+            Exam -> Exam: stopTimer()
+            Exam -> Exam: calculateResults()
+        end
+    end
+    
+    alt Hết thời gian
+        Timer -> Exam: onFinish()
+        Exam -> Exam: Auto submit:\nsafeAutoSubmit()
+        Exam -> Exam: calculateResults()
+    end
+end
+
+deactivate Timer
+
+Exam -> Exam: calculateResults():\n- Duyệt qua tất cả câu hỏi\n- So sánh userAnswer vs correctAnswer\n- Đếm: correctCount, wrongCount, skippedCount\n- Tạo List<AnswerReview>
+
+Exam -> Result: startActivity(intent) với:\n+ total_questions\n+ correct_answers\n+ wrong_answers\n+ skipped_questions\n+ time_taken\n+ answer_reviews (Serializable)\n+ testId
+activate Result
+
+Exam -> Exam: finish()
+deactivate Exam
+
+Result -> User: Hiển thị kết quả thi
+deactivate Result
+
+note right of Exam
+  Tính năng:
+  - Timer đếm ngược 45 phút
+  - Tự động nộp bài khi hết giờ
+  - Lưu đáp án đã chọn khi chuyển câu
+  - Navigation: Previous/Next
+  - Progress bar hiển thị tiến độ
+  - Không cho phép quay lại sau khi nộp bài
+end note
+
+@enduml

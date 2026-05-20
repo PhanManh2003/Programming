@@ -1,0 +1,72 @@
+@startuml Learning Flow
+title Học Tập Theo Chủ Đề - Learning Flow
+
+actor User
+participant "LearningActivity" as Learning
+participant "LessonDao" as LessonDAO
+participant "QuestionDao" as QuestionDAO
+participant "StudyDao" as StudyDAO
+database "Room Database" as DB
+participant "CategoryQuestionsActivity" as CategoryQ
+
+User -> Learning: Mở màn hình Học tập
+activate Learning
+
+Learning -> LessonDAO: getAll()
+activate LessonDAO
+LessonDAO -> DB: SELECT * FROM lessons
+activate DB
+DB --> LessonDAO: List<Lesson>
+deactivate DB
+LessonDAO --> Learning: allLessons
+deactivate LessonDAO
+
+Learning -> QuestionDAO: getAll()
+activate QuestionDAO
+QuestionDAO -> DB: SELECT * FROM questions
+activate DB
+DB --> QuestionDAO: List<Question>
+deactivate DB
+QuestionDAO --> Learning: allQuestions
+deactivate QuestionDAO
+
+Learning -> StudyDAO: getAll()
+activate StudyDAO
+StudyDAO -> DB: SELECT * FROM studies
+activate DB
+DB --> StudyDAO: List<Study>
+deactivate DB
+StudyDAO --> Learning: allStudies
+deactivate StudyDAO
+
+Learning -> Learning: Tính toán tiến độ cho mỗi Lesson:\n- Tổng câu hỏi\n- Số câu đã học (từ Study table)\n- Phần trăm hoàn thành
+
+Learning -> User: Hiển thị danh sách bài học với:\n- Tên bài học\n- Số câu hỏi\n- Tiến độ học (progress bar)\n- Icon trạng thái
+
+alt User tìm kiếm bài học
+    User -> Learning: Nhập từ khóa vào search box
+    Learning -> Learning: filterLessons(query)\nLọc theo tên bài học
+    Learning -> User: Cập nhật danh sách hiển thị
+end
+
+User -> Learning: Nhấn vào một bài học
+Learning -> CategoryQ: startActivity(intent)\n+ putExtra("lessonId", lessonId)\n+ putExtra("lessonName", lessonName)\n+ putExtra("userId", userId)
+activate CategoryQ
+
+CategoryQ -> User: Màn hình câu hỏi theo chủ đề
+deactivate CategoryQ
+
+note right of Learning
+  onResume() được gọi khi quay lại
+  → Reload dữ liệu để cập nhật tiến độ mới
+end note
+
+User -> Learning: Quay lại từ CategoryQuestions
+Learning -> Learning: onResume()\nloadDataFromDB()
+Learning -> User: Cập nhật tiến độ học mới
+
+User -> Learning: Nhấn nút Back
+Learning -> Learning: finish()
+deactivate Learning
+
+@enduml
