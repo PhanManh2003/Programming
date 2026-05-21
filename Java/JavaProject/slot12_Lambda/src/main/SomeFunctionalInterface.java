@@ -7,10 +7,10 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public class LambdaFunctionalInterface {
+public class SomeFunctionalInterface {
 
     public static void main(String[] args) {
-        // 1. Runnable - Không tham số, không trả về
+        // 1. Runnable - Không tham số, không trả về ( return)
         Runnable task = () -> System.out.println("Task chạy!");
         task.run();
 
@@ -22,7 +22,7 @@ public class LambdaFunctionalInterface {
         Supplier<Double> randomNum = () -> Math.random();
         System.out.println("Số random: " + randomNum.get());
 
-        // 4. Function - Nhận tham số, có trả về
+        // 4. Function - Nhận 1 tham số, có trả về 1 kq
         Function<Integer, Integer> square = x -> x * x;
         System.out.println("5^2 = " + square.apply(5));
 

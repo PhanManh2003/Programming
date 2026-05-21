@@ -6,6 +6,7 @@ public class Slot4_string {
 
     // String 
     public static void main(String[] args) {
+// 0.charAt(index) là để lấy 1 kí tự ở vị trí của 1 chuỗi
 
 //        1. indexOf(): returns the starting position of the first occurrence of a String1 in String2.
 //        >< lastIndexOf() returns the last occurrence of String1 in String2.
@@ -76,7 +77,7 @@ public class Slot4_string {
 //        10. concat(String x)
         String s10 = "java string";
         System.out.println(s10);
-        s10 = s10.concat(" is immutable so assign it explicitly");
+        s10 = s10.concat(" is immutable so assign it explicitly"); // tạo 1 vùng nhớ mới
         System.out.println(s10);
 
 //        11. join()

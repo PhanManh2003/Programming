@@ -43,3 +43,6 @@ Java/Tomcat/apache-tomcat-10.1.23/logs/*.log
 *.class
 *.zip
 /Java/JavaProject/slot3/build/
+/FresherAndroid/JavaCode/PhanTienManh_JPL.L.A101/build/
+/FresherAndroid/JavaCode/ManhPT14_Assignment2/build/
+/FresherAndroid/JavaCode/ManhPT14_Assignment2.1/build/

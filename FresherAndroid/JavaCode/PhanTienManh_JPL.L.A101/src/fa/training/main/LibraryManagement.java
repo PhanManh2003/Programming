@@ -16,28 +16,24 @@ import java.util.Set;
 
 /*
 Functional Requirements
-1. The program must have a function to add a new book but keep isbn is unique
-2. The program must have a function to add a new magazine but keep sorted by
-publication date
-3.The program must have a function to display the list of all books and magazines that 
-have the same input publication year and publisher. 
+1. The program must have a function to add a new book with unique isbn
+2. The program must have a function to add a new magazine 
+3. The program must have a function to display the list of all books and magazines that 
+   have the same publication year and publisher. 
 4. The program must have a function to add an author to a specific book, if the author
-existed, the program should print a message “Author existed”, otherwise print “Add
-successfully”.
-5. The program must have a function to display the list of top 10 magazines which have  the largest volume. 
-6. The program must have count all Publication by publication year
-7. The program must provide functions to search flexibly match at least one criteria:
-- by isbn
-- by author
-- by publisher
-Search results should be sorted by publication date.
+   existed, the program should print a message "Author existed", otherwise print "Add successfully".
+5. The program must have a function to display the list of top 10 magazines which have the largest volume. 
+6. The program must provide functions to search book by:
+   - isbn
+   - author
+   - publisher
+   Search results should be sorted by isbn, publication date.
  */
 public class LibraryManagement {
 
     private static BookService bookService = new BookService();
     private static MagazineService magazineService = new MagazineService();
     private static Scanner scanner = new Scanner(System.in);
-    private static SimpleDateFormat dateFormatter = new SimpleDateFormat("dd/MM/yyyy");
 
     public static void main(String[] args) {
 
@@ -315,6 +311,8 @@ public class LibraryManagement {
     private static Date getDateInput(String prompt) {
         Date date = null;
         boolean valid = false;
+        SimpleDateFormat dateFormatter = new SimpleDateFormat("dd/MM/yyyy");
+        dateFormatter.setLenient(false);
 
         while (!valid) {
             try {
