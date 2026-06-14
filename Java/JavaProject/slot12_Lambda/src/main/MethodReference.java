@@ -10,7 +10,7 @@ public class MethodReference {
 
     /*
 **** 1. ĐỊNH NGHĨA: Method Reference = Cách viết NGẮN GỌN HƠN của Lambda khi
-    lambda CHỈ GỌI 1 method duy nhất và không làm gì thêm.
+    lambda CHỈ GỌI 1 method duy nhất và không xử lí gì thêm.
     
 VD:
     // ✅ Dùng được Method Reference
@@ -38,13 +38,15 @@ calculate(5, 3, (a, b) -> a + b);  // Có xử lý: cộng
     
 **** 2. CÁC LOẠI METHOD REFERENCE
  1. Static Method Reference  (Syntax: ClassName::staticMethod)
- 2. Instance Method Reference (Object cụ thể. object::instanceMethod) 
     
+ 2. Instance Method Reference (Object cụ thể. object::instanceMethod) 
+        String prefix = "Hello ";
             // Lambda
         Function<String, String> greet1 = name -> prefix.concat(name);
 
             // Method Reference
         Function<String, String> greet2 = prefix::concat;
+    
  3. Instance Method Reference (Arbitrary Object. ClassName::instanceMethod)
     List<String> names = Arrays.asList("An", "Binh", "Cuong");
 
@@ -62,6 +64,6 @@ calculate(5, 3, (a, b) -> a + b);  // Có xử lý: cộng
         List<String> myList = list2.get();  // Tạo ArrayList mới
      */
     public static void main(String[] args) {
- 
+
     }
 }

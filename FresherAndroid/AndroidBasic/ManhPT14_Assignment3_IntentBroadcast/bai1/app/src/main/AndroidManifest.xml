@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ImplicitIntentStartApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <!-- intent-filter:
+     MAIN: đánh dấu đây là entry point của ứng dụng,
+           thiếu thì app không có điểm khởi động
+     LAUNCHER: hiển thị icon app trên màn hình,
+               thiếu thì người dùng không thể tự mở app
+     → 2 cái này luôn đi kèm nhau ở Activity chính
+     -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Activity này xử lý Implicit Intent
+     có action = com.example.implicitintentstartapp.LAUNCH
+     Android sẽ mở Activity này khi nhận được Intent có action này.
+             -->
+            <intent-filter>
+                <action android:name="com.example.implicitintentstartapp.LAUNCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <receiver
+            android:name=".BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+<!--         enabled để receiver hoạt động, exported là cho phép các thaành
+phần ngoài ứng dụng gửi broadcast đến receiver
+
+intent filter
+là cơ chế để android biết receiver này có thể receive những loại intent nào
+-->
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

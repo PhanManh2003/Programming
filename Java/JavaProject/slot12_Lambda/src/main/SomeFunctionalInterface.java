@@ -9,6 +9,21 @@ import java.util.function.Supplier;
 
 public class SomeFunctionalInterface {
 
+    /*
+    Các Functional Interface có sẵn:
+
+INTERFACE           |       METHOD               |  Lambda Example
+
+Runnable            |   void run()               |  () -> System.out.println("Run")
+Consumer<T>         | void accept(T t)           |   s -> System.out.println(s)
+    
+Supplier<T>         |    T get()                 |    () -> "Hello"
+Function<T,R>       |    R apply(T t)            |    x -> x * 2
+    
+Predicate<T>        |    boolean test(T t)       |    x -> x > 5
+Comparator<T>       |   int compare(T t1, T t2)  |   (a, b) -> a - b
+     */
+
     public static void main(String[] args) {
         // 1. Runnable - Không tham số, không trả về ( return)
         Runnable task = () -> System.out.println("Task chạy!");

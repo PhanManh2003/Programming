@@ -1,0 +1,1870 @@
+1. Asynchronous Programming là gì?
+
+Asynchronous Programming nghĩa là lập trình bất đồng bộ.
+
+Hiểu đơn giản:
+
+Chương trình không cần chờ một tác vụ lâu hoàn thành rồi mới làm việc tiếp.
+
+Ví dụ trong Android:
+
+Gọi API mất 3 giây
+Đọc database mất 1 giây
+Download ảnh mất 5 giây
+Ghi file mất 2 giây
+
+Nếu làm theo kiểu đồng bộ, chương trình sẽ bị đứng trong lúc chờ.
+
+Ví dụ đồng bộ:
+
+fun main() {
+    println("Start")
+
+    Thread.sleep(3000)
+
+    println("End")
+}
+
+Kết quả:
+
+Start
+// chờ 3 giây
+End
+
+Trong 3 giây đó, thread bị block hoàn toàn.
+
+Trong Android, nếu block Main Thread, app có thể bị đơ và xuất hiện lỗi:
+
+Application Not Responding - ANR
+2. Synchronous và Asynchronous khác nhau thế nào?
+Synchronous – đồng bộ
+
+Làm từng việc một, việc sau phải chờ việc trước xong.
+
+Pha cà phê xong
+Rồi mới nướng bánh
+Rồi mới dọn bàn
+
+Trong code:
+
+fun main() {
+    println("Task 1")
+    Thread.sleep(1000)
+
+    println("Task 2")
+    Thread.sleep(1000)
+
+    println("Task 3")
+}
+
+Chương trình chạy tuần tự.
+
+Asynchronous – bất đồng bộ
+
+Trong lúc chờ một việc, chương trình có thể làm việc khác.
+
+Bật máy pha cà phê
+Trong lúc chờ cà phê, đi nướng bánh
+Trong lúc chờ bánh, dọn bàn
+
+Trong Kotlin, ta thường dùng coroutine để làm việc này.
+
+3. Coroutine là gì?
+
+Coroutine là một cơ chế giúp viết code bất đồng bộ nhưng nhìn vẫn giống code tuần tự.
+
+Coroutine nhẹ hơn thread rất nhiều.
+
+Có thể hiểu:
+
+Thread = nhân viên thật
+Coroutine = công việc nhỏ chạy trên nhân viên đó
+
+Một thread có thể chạy rất nhiều coroutine.
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    launch {
+        delay(1000)
+        println("Coroutine finished")
+    }
+
+    println("Main continues")
+}
+
+Kết quả:
+
+Main continues
+Coroutine finished
+
+4. Vì sao cần Coroutine trong Android?
+
+Trong Android, Main Thread chịu trách nhiệm xử lý giao diện:
+
+Hiển thị UI
+Nhận click
+Cập nhật RecyclerView
+Xử lý animation
+
+Nếu bạn gọi API hoặc đọc database trực tiếp trên Main Thread, app sẽ bị lag.
+
+Sai:
+
+fun loadData() {
+    val data = api.getProducts() // tác vụ lâu
+    showData(data)
+}
+
+Đúng hơn là đưa tác vụ nặng sang background thread:
+
+viewModelScope.launch {
+    val data = withContext(Dispatchers.IO) {
+        api.getProducts()
+    }
+
+    showData(data)
+}
+
+Ý nghĩa:
+
+Gọi API chạy ở Dispatchers.IO
+Cập nhật UI chạy lại ở Main Thread
+5. suspend là gì?
+
+suspend là từ khóa dung để khai báo một hàm có thể tạm dừng và tiếp tục lại sau.
+
+Ví dụ:
+
+suspend fun getUserName(): String {
+    delay(1000)
+    return "Quang"
+}
+
+Hàm này mất 1 giây mới trả kết quả.
+
+Nhưng trong lúc delay(1000), thread không bị khóa.
+
+Gọi hàm suspend phải gọi bên trong coroutine:
+
+import kotlinx.coroutines.*
+
+suspend fun getUserName(): String {
+    delay(1000)
+    return "Quang"
+}
+
+fun main() = runBlocking {
+    val name = getUserName()
+    println(name)
+}
+
+Kết quả:
+
+Quang
+
+6. delay() khác gì Thread.sleep()?
+Thread.sleep()
+Thread.sleep(1000)
+
+Nó block thread thật sự.
+
+Trong lúc đó thread không làm được gì khác.
+
+delay()
+delay(1000)
+
+Nó chỉ tạm dừng coroutine.
+
+Thread được giải phóng để làm việc khác.
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    launch {
+        delay(1000)
+        println("Task 1 done")
+    }
+
+    launch {
+        delay(500)
+        println("Task 2 done")
+    }
+
+    println("Start")
+}
+
+Kết quả:
+
+Start
+Task 2 done
+Task 1 done
+
+Hai coroutine cùng chạy, không phải chờ nhau theo kiểu block.
+
+7. runBlocking là gì?
+
+runBlocking tạo một coroutine scope và block thread hiện tại cho đến khi các coroutine bên trong chạy xong.
+
+Nó thường dùng trong:
+
+Hàm main
+Test
+Demo code
+
+Ví dụ:
+
+fun main() = runBlocking {
+    delay(1000)
+    println("Hello coroutine")
+}
+
+Trong Android thực tế, thường không dùng runBlocking trong UI, vì nó có thể làm đứng Main Thread.
+
+Trong Android, thường dùng:
+
+viewModelScope.launch { }
+lifecycleScope.launch { }
+8. launch là gì?
+
+launch dùng để chạy một coroutine mới.
+
+Nó không trả về kết quả trực tiếp.
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    launch {
+        delay(1000)
+        println("Download image done")
+    }
+
+    println("Continue other work")
+}
+
+Kết quả:
+
+Continue other work
+Download image done
+
+launch phù hợp với các tác vụ kiểu:
+
+Gửi log
+Load dữ liệu rồi cập nhật UI
+Lưu database
+Gọi API nhưng không cần return trực tiếp
+9. async và await là gì?
+
+async cũng tạo coroutine, nhưng khác launch ở chỗ:
+
+async có trả kết quả
+launch không trả kết quả
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    val result = async {
+        delay(1000)
+        100
+    }
+
+    println("Waiting result...")
+
+    println(result.await())
+}
+
+Kết quả:
+
+Waiting result...
+100
+
+Trong đó:
+
+async { ... }
+
+Tạo coroutine có kết quả.
+
+await()
+
+Chờ lấy kết quả.
+
+10. Ví dụ chạy 2 API song song bằng async
+
+Giả sử có 2 API:
+
+suspend fun getUser(): String {
+    delay(1000)
+    return "User"
+}
+
+suspend fun getProducts(): String {
+    delay(1000)
+    return "Products"
+}
+
+Nếu gọi tuần tự:
+
+fun main() = runBlocking {
+    val user = getUser()
+    val products = getProducts()
+
+    println(user)
+    println(products)
+}
+
+Tổng thời gian khoảng 2 giây.
+
+Nếu dùng async:
+
+import kotlinx.coroutines.*
+
+suspend fun getUser(): String {
+    delay(1000)
+    return "User"
+}
+
+suspend fun getProducts(): String {
+    delay(1000)
+    return "Products"
+}
+
+fun main() = runBlocking {
+    val userDeferred = async { getUser() }
+    val productDeferred = async { getProducts() }
+
+    val user = userDeferred.await()
+    val products = productDeferred.await()
+
+    println(user)
+    println(products)
+}
+
+Tổng thời gian khoảng 1 giây, vì 2 tác vụ chạy song song.
+
+11. Coroutine Scope là gì?
+
+Coroutine cần chạy bên trong một CoroutineScope.
+
+Scope dùng để quản lý vòng đời của coroutine.
+
+Ví dụ:
+
+runBlocking {
+    launch {
+        delay(1000)
+        println("Done")
+    }
+}
+
+Ở đây:
+
+runBlocking { }
+
+là scope.
+
+Trong Android có:
+
+viewModelScope
+lifecycleScope
+
+Ví dụ trong ViewModel:
+
+class ProductViewModel : ViewModel() {
+
+    fun loadProducts() {
+        viewModelScope.launch {
+            delay(1000)
+            println("Load products")
+        }
+    }
+}
+
+Khi ViewModel bị hủy, các coroutine trong viewModelScope cũng bị hủy theo.
+
+Điều này giúp tránh memory leak.
+
+12. Dispatcher là gì?
+
+Dispatcher quyết định coroutine chạy trên thread nào.
+
+Các dispatcher thường gặp:
+
+Dispatcher	Dùng khi nào
+Dispatchers.Main	Cập nhật UI
+Dispatchers.IO	Gọi API, đọc ghi file, database
+Dispatchers.Default	Tính toán nặng
+Dispatchers.Unconfined	Ít dùng trong app thực tế
+
+Ví dụ:
+
+viewModelScope.launch(Dispatchers.IO) {
+    val data = api.getProducts()
+}
+
+Tác vụ này chạy trên IO thread.
+
+13. withContext là gì?
+
+withContext dùng để chuyển coroutine sang dispatcher khác và chờ kết quả trả về.
+
+Ví dụ:
+
+viewModelScope.launch {
+    val products = withContext(Dispatchers.IO) {
+        repository.getProducts()
+    }
+
+    // Sau khi có dữ liệu, cập nhật UI state
+}
+
+Giải thích:
+
+withContext(Dispatchers.IO) {
+    repository.getProducts()
+}
+
+Đưa việc lấy dữ liệu sang background thread.
+
+Sau khi xong, code tiếp tục chạy ở scope ban đầu.
+
+Ví dụ đầy đủ:
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    println("Main thread: ${Thread.currentThread().name}")
+
+    val result = withContext(Dispatchers.IO) {
+        println("IO thread: ${Thread.currentThread().name}")
+        delay(1000)
+        "Data loaded"
+    }
+
+    println(result)
+    println("Back to: ${Thread.currentThread().name}")
+}
+
+
+14. launch và async khác nhau thế nào?
+
+Nội dung				launch		async
+Có trả kết quả không?	Không		Có
+Kết quả trả về			Job			Deferred<T>
+Lấy kết quả			Không có		Dùng await()
+Dùng khi			Chạy tác vụ nền	Cần kết quả từ coroutine
+
+Ví dụ launch:
+
+val job = launch {
+    delay(1000)
+    println("Done")
+}
+
+Ví dụ async:
+
+val deferred = async {
+    delay(1000)
+    10
+}
+
+println(deferred.await())
+
+
+15. Job là gì?
+
+Khi dùng launch, nó trả về một Job.
+
+Job đại diện cho coroutine đang chạy.
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    val job = launch {
+        delay(1000)
+        println("Job done")
+    }
+
+    job.join()
+
+    println("After job")
+}
+
+Kết quả:
+
+Job done
+After job
+job.join()
+
+nghĩa là chờ coroutine đó chạy xong.
+
+16. Cancellation – hủy coroutine
+
+Coroutine có thể bị hủy.
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    val job = launch {
+        repeat(10) { i ->
+            println("Working $i")
+            delay(500)
+        }
+    }
+
+    delay(1300)
+
+    job.cancel()
+
+    println("Cancelled")
+}
+
+Kết quả có thể là:
+
+Working 0
+Working 1
+Working 2
+Cancelled
+
+Coroutine bị hủy sau khoảng 1.3 giây.
+
+17. Coroutine cancellation là cooperative
+
+Coroutine chỉ hủy tốt khi nó có các điểm kiểm tra hủy như:
+
+delay()
+yield()
+ensureActive()
+isActive
+
+Ví dụ chưa tốt:
+
+val job = launch {
+    while (true) {
+        // xử lý nặng, không có delay, không check isActive
+    }
+}
+
+Coroutine này khó bị hủy vì nó không nhường quyền.
+
+Cách tốt hơn:
+
+val job = launch {
+    while (isActive) {
+        println("Working")
+        delay(500)
+    }
+}
+18. Exception trong coroutine
+
+Nếu một coroutine bị lỗi, exception có thể làm hủy scope cha.
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    launch {
+        throw RuntimeException("Something wrong")
+    }
+}
+
+Chương trình sẽ lỗi.
+
+Có thể xử lý bằng try-catch:
+
+fun main() = runBlocking {
+    launch {
+        try {
+            throw RuntimeException("Something wrong")
+        } catch (e: Exception) {
+            println("Error: ${e.message}")
+        }
+    }
+}
+
+Kết quả:
+
+Error: Something wrong
+19. Exception với async
+
+Với async, lỗi thường xuất hiện khi gọi await().
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    val result = async {
+        throw RuntimeException("API error")
+    }
+
+    try {
+        result.await()
+    } catch (e: Exception) {
+        println("Caught: ${e.message}")
+    }
+}
+
+Kết quả:
+
+Caught: API error
+
+
+20. Structured Concurrency là gì?
+
+Structured Concurrency là nguyên tắc quan trọng trong coroutine.
+
+Ý tưởng:
+
+Coroutine con phải được quản lý bởi coroutine cha.
+Cha chỉ hoàn thành khi các con hoàn thành.
+Nếu cha bị hủy, các con cũng bị hủy.
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    launch {
+        delay(1000)
+        println("Child 1 done")
+    }
+
+    launch {
+        delay(1500)
+        println("Child 2 done")
+    }
+
+    println("Parent waiting...")
+}
+
+Kết quả:
+
+Parent waiting...
+Child 1 done
+Child 2 done
+
+runBlocking đợi cả hai coroutine con chạy xong rồi mới kết thúc.
+
+21. Ví dụ thực tế: loading dữ liệu trong Android
+
+Giả sử có repository:
+
+class UserRepository {
+
+    suspend fun getUserName(): String {
+        delay(1000)
+        return "Nguyen Van A"
+    }
+}
+
+ViewModel:
+
+class UserViewModel(
+    private val repository: UserRepository
+) : ViewModel() {
+
+    private val _userName = MutableStateFlow("")
+    val userName: StateFlow<String> = _userName
+
+    fun loadUser() {
+        viewModelScope.launch {
+            val name = withContext(Dispatchers.IO) {
+                repository.getUserName()
+            }
+
+            _userName.value = name
+        }
+    }
+}
+
+Giải thích:
+
+viewModelScope.launch {
+
+Tạo coroutine gắn với vòng đời ViewModel.
+
+withContext(Dispatchers.IO) {
+    repository.getUserName()
+}
+
+Lấy dữ liệu ở background thread.
+
+_userName.value = name
+
+Cập nhật state để UI hiển thị.
+
+22. Coroutine liên quan gì đến Flow?
+
+Flow được xây dựng trên coroutine.
+
+Ví dụ:
+
+fun getNumbers(): Flow<Int> = flow {
+    emit(1)
+    delay(1000)
+    emit(2)
+}
+
+Trong flow {}, ta có thể gọi delay() vì Flow hoạt động trong coroutine.
+
+Khi collect Flow:
+
+viewModelScope.launch {
+    getNumbers().collect { value ->
+        println(value)
+    }
+}
+
+Ta cũng cần một coroutine để collect.
+
+Có thể hiểu:
+
+Coroutine = cơ chế chạy bất đồng bộ
+Flow = luồng dữ liệu bất đồng bộ dựa trên coroutine
+23. Tổng hợp ví dụ lớn
+
+Ví dụ này mô phỏng gọi API lấy user và product song song.
+
+import kotlinx.coroutines.*
+
+suspend fun getUser(): String {
+    delay(1000)
+    return "User: Quang"
+}
+
+suspend fun getProducts(): List<String> {
+    delay(1500)
+    return listOf("Laptop", "Mouse", "Keyboard")
+}
+
+fun main() = runBlocking {
+    println("Start loading")
+
+    val userDeferred = async(Dispatchers.IO) {
+        getUser()
+    }
+
+    val productsDeferred = async(Dispatchers.IO) {
+        getProducts()
+    }
+
+    val user = userDeferred.await()
+    val products = productsDeferred.await()
+
+    println(user)
+    println(products)
+
+    println("End loading")
+}
+
+Kết quả:
+
+Start loading
+User: Quang
+[Laptop, Mouse, Keyboard]
+End loading
+
+Tổng thời gian khoảng 1.5 giây, không phải 2.5 giây, vì hai tác vụ chạy song song.
+
+24. Tóm tắt dễ nhớ
+
+Asynchronous Programming
+= lập trình bất đồng bộ, không chờ tác vụ lâu theo kiểu block.
+
+Coroutine
+= cách Kotlin xử lý bất đồng bộ nhẹ, dễ đọc, dễ quản lý.
+
+suspend
+= hàm có thể tạm dừng và tiếp tục lại.
+
+delay()
+= tạm dừng coroutine, không block thread.
+
+launch
+= chạy coroutine không cần kết quả trả về.
+
+async
+= chạy coroutine có kết quả trả về.
+
+await()
+= lấy kết quả từ async.
+
+withContext
+= chuyển coroutine sang dispatcher khác.
+
+Dispatchers.IO
+= dùng cho API, database, file.
+
+Dispatchers.Main
+= dùng cho UI.
+
+Job
+= đại diện cho coroutine đang chạy.
+
+cancel()
+= hủy coroutine.
+
+Flow
+= luồng dữ liệu bất đồng bộ dựa trên coroutine.
+
+Cách hiểu ngắn gọn nhất:
+
+Coroutine giúp chạy tác vụ lâu mà không làm đơ app.
+Flow giúp phát nhiều dữ liệu theo thời gian.
+
+Trong Android hiện đại, bộ ba rất hay đi cùng nhau là:
+
+Coroutine + Flow + ViewModel
+
+Ví dụ:
+
+ViewModel dùng coroutine để gọi repository.
+Repository dùng Flow để phát Loading / Success / Error.
+UI collect StateFlow để cập nhật giao diện.
+
+1. Flow là gì?
+
+Flow trong Kotlin là một cách để xử lý luồng dữ liệu bất đồng bộ.
+
+Hiểu đơn giản:
+
+Flow = một luồng dữ liệu có thể phát ra nhiều giá trị theo thời gian
+
+Ví dụ:
+
+Sau 1 giây phát ra 1
+Sau 1 giây phát ra 2
+Sau 1 giây phát ra 3
+
+Trong Kotlin, ta có thể biểu diễn luồng dữ liệu đó bằng Flow<Int>.
+
+fun foo(): Flow<Int> = flow {
+    emit(1)
+    emit(2)
+    emit(3)
+}
+
+Ở đây:
+
+Flow<Int>
+
+có nghĩa là Flow này sẽ phát ra các giá trị kiểu Int.
+
+2. Vì sao cần Flow?
+
+Trong Android, rất nhiều dữ liệu không có ngay lập tức, ví dụ:
+
+Gọi API
+Đọc database
+Lắng nghe thay đổi dữ liệu
+Tìm kiếm người dùng nhập
+Theo dõi trạng thái loading / success / error
+
+Nếu dùng cách bình thường, chương trình dễ bị block hoặc khó quản lý callback.
+
+Flow giúp xử lý những dữ liệu kiểu:
+
+Có thể đến sau
+Có thể đến nhiều lần
+Có thể thay đổi theo thời gian
+Có thể cần hủy khi màn hình bị đóng
+
+Ví dụ thực tế:
+
+Màn hình sản phẩm:
+- Đầu tiên hiển thị Loading
+- Sau đó nhận danh sách sản phẩm
+- Nếu lỗi thì hiển thị Error
+
+Flow rất phù hợp cho kiểu xử lý này.
+
+3. Flow gồm 2 phía chính
+
+Một Flow thường có 2 phía:
+
+Producer: nơi phát dữ liệu
+Consumer: nơi nhận dữ liệu
+
+Trong Kotlin Flow:
+
+emit()    = phát dữ liệu
+collect() = nhận dữ liệu
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.*
+
+fun numberFlow(): Flow<Int> = flow {
+    emit(1)
+    emit(2)
+    emit(3)
+}
+
+fun main() = runBlocking {
+    numberFlow().collect { value ->
+        println(value)
+    }
+}
+
+Kết quả:
+
+1
+2
+3
+
+Giải thích:
+
+fun numberFlow(): Flow<Int> = flow {
+
+Tạo một Flow phát ra dữ liệu kiểu Int.
+
+emit(1)
+emit(2)
+emit(3)
+
+Phát lần lượt các giá trị 1, 2, 3.
+
+numberFlow().collect { value ->
+
+Bắt đầu thu thập dữ liệu từ Flow.
+
+println(value)
+
+Mỗi lần Flow phát ra một giá trị, giá trị đó được in ra.
+
+4. Flow là “cold stream”
+
+Đây là điểm rất quan trọng.
+
+Flow trong Kotlin mặc định là cold stream.
+
+Nghĩa là:
+
+Flow chưa chạy khi được tạo.
+Flow chỉ chạy khi có collect().
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.*
+
+fun numberFlow(): Flow<Int> = flow {
+    println("Flow started")
+    emit(1)
+    emit(2)
+    emit(3)
+}
+
+fun main() = runBlocking {
+    val flow = numberFlow()
+
+    println("Flow created")
+
+    flow.collect { value ->
+        println(value)
+    }
+}
+
+Kết quả:
+
+Flow created
+Flow started
+1
+2
+3
+
+Ta thấy dòng:
+
+Flow started
+
+chỉ xuất hiện sau khi gọi:
+
+flow.collect { ... }
+
+Vì vậy, chỉ viết như này thì Flow chưa chạy:
+
+val flow = numberFlow()
+
+Phải có:
+
+flow.collect { ... }
+
+Flow mới bắt đầu phát dữ liệu.
+
+5. flow {} là gì?
+
+flow {} là flow builder, dùng để tạo Flow.
+
+Ví dụ:
+
+fun getNumbers(): Flow<Int> = flow {
+    for (i in 1..5) {
+        emit(i)
+    }
+}
+
+Flow này phát ra:
+
+1
+2
+3
+4
+5
+
+Có thể hiểu:
+
+flow {
+    emit(value)
+}
+
+là nơi bạn định nghĩa dữ liệu sẽ được phát ra như thế nào.
+
+6. emit() là gì?
+
+emit() dùng để phát dữ liệu từ Flow.
+
+Ví dụ:
+
+fun getNames(): Flow<String> = flow {
+    emit("An")
+    emit("Binh")
+    emit("Cuong")
+}
+
+Khi collect:
+
+getNames().collect { name ->
+    println(name)
+}
+
+Kết quả:
+
+An
+Binh
+Cuong
+
+Mỗi lần gọi emit(), bên collect() sẽ nhận được một giá trị.
+
+7. collect() là gì?
+
+collect() là hàm dùng để nhận dữ liệu từ Flow.
+
+Ví dụ:
+
+fun main() = runBlocking {
+    getNames().collect { name ->
+        println("Received: $name")
+    }
+}
+
+Kết quả:
+
+Received: An
+Received: Binh
+Received: Cuong
+
+collect() giống như người lắng nghe dữ liệu.
+
+Flow phát gì thì collect nhận cái đó.
+
+8. Flow chạy với Coroutine
+
+Flow hoạt động dựa trên coroutine.
+
+Vì vậy, để dùng Flow, ta thường cần coroutine scope như:
+
+runBlocking
+launch
+viewModelScope
+lifecycleScope
+
+Ví dụ console:
+
+fun main() = runBlocking {
+    numberFlow().collect {
+        println(it)
+    }
+}
+
+Ví dụ trong Android ViewModel:
+
+viewModelScope.launch {
+    repository.getProducts().collect { products ->
+        // update UI state
+    }
+}
+9. Flow với delay()
+
+Flow rất hay dùng với delay() để mô phỏng dữ liệu đến theo thời gian.
+
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.*
+
+fun foo(): Flow<Int> = flow {
+    for (i in 1..3) {
+        delay(1000)
+        emit(i)
+    }
+}
+
+fun main() = runBlocking {
+    foo().collect { value ->
+        println(value)
+    }
+}
+
+Kết quả:
+
+1
+2
+3
+
+Nhưng mỗi số sẽ xuất hiện cách nhau khoảng 1 giây.
+
+Điểm quan trọng:
+
+delay(1000)
+
+không block thread.
+
+Nó chỉ tạm dừng coroutine hiện tại, trong lúc đó coroutine khác vẫn có thể chạy.
+
+10. So sánh delay() và Thread.sleep()
+delay(1000)
+
+là suspend function, không block thread.
+
+Thread.sleep(1000)
+
+block thread thật sự.
+
+Ví dụ dễ hiểu:
+
+delay()        = tôi tạm dừng việc của tôi, người khác vẫn làm được
+Thread.sleep() = tôi chiếm luôn luồng xử lý, người khác phải chờ
+
+Trong coroutine và Flow, nên dùng:
+
+delay()
+
+Không nên dùng:
+
+Thread.sleep()
+11. Ví dụ Flow không block chương trình
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.*
+
+fun foo(): Flow<Int> = flow {
+    for (i in 1..3) {
+        delay(100)
+        emit(i)
+    }
+}
+
+fun main() = runBlocking {
+    launch {
+        for (k in 1..3) {
+            println("I'm not blocked $k")
+            delay(100)
+        }
+    }
+
+    foo().collect { value ->
+        println(value)
+    }
+}
+
+Kết quả thường là:
+
+I'm not blocked 1
+1
+I'm not blocked 2
+2
+I'm not blocked 3
+3
+
+Ý nghĩa:
+
+Coroutine trong launch vẫn chạy được trong khi Flow đang delay.
+
+Điều này chứng minh Flow không làm block toàn bộ chương trình.
+
+12. Các cách tạo Flow
+Cách 1: Dùng flow {}
+fun getNumbers(): Flow<Int> = flow {
+    emit(1)
+    emit(2)
+    emit(3)
+}
+
+Dùng khi bạn muốn tự kiểm soát logic phát dữ liệu.
+
+Cách 2: Dùng flowOf()
+val flow = flowOf(1, 2, 3, 4, 5)
+
+Dùng khi đã có sẵn một vài giá trị.
+
+Ví dụ:
+
+fun main() = runBlocking {
+    flowOf("A", "B", "C").collect {
+        println(it)
+    }
+}
+
+Kết quả:
+
+A
+B
+C
+Cách 3: Dùng asFlow()
+
+Chuyển collection thành Flow.
+
+val numbers = listOf(1, 2, 3, 4, 5)
+
+numbers.asFlow().collect {
+    println(it)
+}
+
+Kết quả:
+
+1
+2
+3
+4
+5
+13. Operator trong Flow
+
+Flow có nhiều operator để xử lý dữ liệu trước khi collect.
+
+Ví dụ:
+
+map
+filter
+transform
+take
+onEach
+catch
+flowOn
+collectLatest
+13.1 map
+
+map dùng để biến đổi dữ liệu.
+
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.*
+
+fun main() = runBlocking {
+    flowOf(1, 2, 3)
+        .map { it * 2 }
+        .collect {
+            println(it)
+        }
+}
+
+Kết quả:
+
+2
+4
+6
+
+Giải thích:
+
+1 -> 2
+2 -> 4
+3 -> 6
+13.2 filter
+
+filter dùng để lọc dữ liệu.
+
+fun main() = runBlocking {
+    flowOf(1, 2, 3, 4, 5)
+        .filter { it % 2 == 0 }
+        .collect {
+            println(it)
+        }
+}
+
+Kết quả:
+
+2
+4
+
+Chỉ giữ lại số chẵn.
+
+13.3 Kết hợp filter và map
+fun main() = runBlocking {
+    flowOf(1, 2, 3, 4, 5)
+        .filter { it % 2 == 1 }
+        .map { it * it }
+        .collect {
+            println(it)
+        }
+}
+
+Kết quả:
+
+1
+9
+25
+
+Giải thích:
+
+Lọc số lẻ: 1, 3, 5
+Bình phương: 1, 9, 25
+13.4 take
+
+take(n) chỉ lấy n phần tử đầu tiên.
+
+fun main() = runBlocking {
+    flowOf(1, 2, 3, 4, 5)
+        .take(3)
+        .collect {
+            println(it)
+        }
+}
+
+Kết quả:
+
+1
+2
+3
+13.5 onEach
+
+onEach dùng để thực hiện hành động phụ với từng phần tử.
+
+fun main() = runBlocking {
+    flowOf(1, 2, 3)
+        .onEach {
+            println("Before collect: $it")
+        }
+        .collect {
+            println("Collect: $it")
+        }
+}
+
+Kết quả:
+
+Before collect: 1
+Collect: 1
+Before collect: 2
+Collect: 2
+Before collect: 3
+Collect: 3
+14. Terminal operator
+
+Terminal operator là toán tử khiến Flow bắt đầu chạy.
+
+Quan trọng nhất là:
+
+collect()
+
+Ví dụ:
+
+flowOf(1, 2, 3)
+    .map { it * 2 }
+
+Đoạn trên chưa chạy.
+
+Phải có:
+
+flowOf(1, 2, 3)
+    .map { it * 2 }
+    .collect { println(it) }
+
+Flow mới chạy.
+
+Một số terminal operator khác:
+
+first()
+toList()
+single()
+count()
+reduce()
+fold()
+
+Ví dụ first():
+
+fun main() = runBlocking {
+    val firstValue = flowOf(10, 20, 30).first()
+
+    println(firstValue)
+}
+
+Kết quả:
+
+10
+
+Ví dụ toList():
+
+fun main() = runBlocking {
+    val list = flowOf(1, 2, 3).toList()
+
+    println(list)
+}
+
+Kết quả:
+
+[1, 2, 3]
+15. Xử lý lỗi với catch
+
+Trong Flow, có thể xử lý lỗi bằng catch.
+
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.*
+
+fun errorFlow(): Flow<Int> = flow {
+    emit(1)
+    emit(2)
+    throw RuntimeException("Something went wrong")
+    emit(3)
+}
+
+fun main() = runBlocking {
+    errorFlow()
+        .catch { e ->
+            println("Error: ${e.message}")
+        }
+        .collect { value ->
+            println(value)
+        }
+}
+
+Kết quả:
+
+1
+2
+Error: Something went wrong
+
+Lưu ý:
+
+emit(3)
+
+không chạy vì trước đó đã throw exception.
+
+16. onCompletion
+
+onCompletion chạy khi Flow kết thúc, dù thành công hay thất bại.
+
+fun main() = runBlocking {
+    flowOf(1, 2, 3)
+        .onCompletion {
+            println("Flow completed")
+        }
+        .collect {
+            println(it)
+        }
+}
+
+Kết quả:
+
+1
+2
+3
+Flow completed
+
+Có thể dùng onCompletion để ẩn loading.
+
+17. flowOn
+
+Mặc định Flow chạy trên coroutine context của nơi collect.
+
+Ví dụ nếu collect trong Main thread thì Flow cũng chạy trên Main thread.
+
+Nếu có tác vụ nặng như gọi API, đọc file, đọc database, ta nên chuyển sang Dispatchers.IO.
+
+fun getData(): Flow<String> = flow {
+    emit("Loading data from database")
+}.flowOn(Dispatchers.IO)
+
+Ví dụ đầy đủ:
+
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.*
+
+fun getData(): Flow<String> = flow {
+    println("Running on: ${Thread.currentThread().name}")
+    emit("Data loaded")
+}.flowOn(Dispatchers.IO)
+
+fun main() = runBlocking {
+    getData().collect {
+        println("Collect on: ${Thread.currentThread().name}")
+        println(it)
+    }
+}
+
+Ý nghĩa:
+
+flowOn(Dispatchers.IO)
+
+chuyển phần xử lý phía trên nó sang IO thread.
+
+Trong Android, thường dùng:
+
+.flowOn(Dispatchers.IO)
+
+cho API hoặc database.
+
+18. collectLatest
+
+collectLatest dùng khi chỉ quan tâm kết quả mới nhất.
+
+Nếu dữ liệu mới đến trong khi dữ liệu cũ chưa xử lý xong, xử lý cũ sẽ bị hủy.
+
+Rất hay dùng cho tìm kiếm.
+
+Ví dụ:
+
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.*
+
+fun main() = runBlocking {
+    flow {
+        emit("a")
+        delay(100)
+        emit("ab")
+        delay(100)
+        emit("abc")
+    }.collectLatest { keyword ->
+        println("Start searching: $keyword")
+        delay(300)
+        println("Done searching: $keyword")
+    }
+}
+
+Kết quả thường là:
+
+Start searching: a
+Start searching: ab
+Start searching: abc
+Done searching: abc
+
+Ý nghĩa:
+
+Tìm kiếm "a" chưa xong thì người dùng nhập "ab" -> hủy "a"
+Tìm kiếm "ab" chưa xong thì người dùng nhập "abc" -> hủy "ab"
+Chỉ xử lý xong "abc"
+19. Flow trong Android thường dùng như thế nào?
+
+Trong Android, Flow thường dùng theo mô hình:
+
+Repository trả về Flow
+ViewModel collect Flow
+UI observe state từ ViewModel
+
+Ví dụ:
+
+data class Product(
+    val id: Int,
+    val name: String,
+    val price: Double
+)
+
+Tạo sealed class quản lý trạng thái UI:
+
+sealed class UiState<out T> {
+    object Loading : UiState<Nothing>()
+    data class Success<T>(val data: T) : UiState<T>()
+    data class Error(val message: String) : UiState<Nothing>()
+}
+
+Repository:
+
+class ProductRepository {
+
+    fun getProducts(): Flow<UiState<List<Product>>> = flow {
+        emit(UiState.Loading)
+
+        delay(1000)
+
+        val products = listOf(
+            Product(1, "Laptop", 1500.0),
+            Product(2, "Mouse", 20.0),
+            Product(3, "Keyboard", 50.0)
+        )
+
+        emit(UiState.Success(products))
+    }.catch { e ->
+        emit(UiState.Error(e.message ?: "Unknown error"))
+    }.flowOn(Dispatchers.IO)
+}
+
+ViewModel:
+
+class ProductViewModel(
+    private val repository: ProductRepository
+) : ViewModel() {
+
+    private val _uiState = MutableStateFlow<UiState<List<Product>>>(UiState.Loading)
+    val uiState: StateFlow<UiState<List<Product>>> = _uiState
+
+    fun loadProducts() {
+        viewModelScope.launch {
+            repository.getProducts().collect { state ->
+                _uiState.value = state
+            }
+        }
+    }
+}
+
+Ý nghĩa:
+
+Repository phát trạng thái Loading
+Sau đó phát Success nếu có dữ liệu
+Nếu lỗi thì phát Error
+ViewModel nhận dữ liệu và cập nhật StateFlow
+UI quan sát StateFlow để render giao diện
+20. StateFlow là gì?
+
+StateFlow là một loại Flow đặc biệt dùng để lưu trạng thái hiện tại.
+
+Nó luôn có một giá trị hiện tại.
+
+Ví dụ:
+
+val count = MutableStateFlow(0)
+
+Ban đầu giá trị là:
+
+0
+
+Cập nhật:
+
+count.value = 1
+count.value = 2
+
+Collect:
+
+count.collect {
+    println(it)
+}
+
+StateFlow rất phù hợp cho UI state trong Android.
+
+Ví dụ:
+
+private val _username = MutableStateFlow("")
+val username: StateFlow<String> = _username
+
+fun updateUsername(value: String) {
+    _username.value = value
+}
+21. SharedFlow là gì?
+
+SharedFlow cũng là Flow đặc biệt, thường dùng cho sự kiện một lần.
+
+Ví dụ:
+
+Hiển thị Toast
+Điều hướng sang màn hình khác
+Hiển thị Snackbar
+
+Ví dụ:
+
+private val _event = MutableSharedFlow<String>()
+val event: SharedFlow<String> = _event
+
+fun showMessage() {
+    viewModelScope.launch {
+        _event.emit("Save successfully")
+    }
+}
+
+So sánh nhanh:
+
+Loại	Dùng cho
+Flow	Luồng dữ liệu thông thường
+StateFlow	Trạng thái hiện tại của UI
+SharedFlow	Sự kiện, message, navigation
+22. So sánh Flow, List, Sequence
+Loại	Đặc điểm
+List	Có sẵn toàn bộ dữ liệu
+Sequence	Xử lý lazy nhưng thường đồng bộ
+Flow	Xử lý bất đồng bộ, có thể phát dữ liệu theo thời gian
+
+Ví dụ List:
+
+val list = listOf(1, 2, 3)
+
+Dữ liệu có sẵn ngay.
+
+Ví dụ Flow:
+
+flow {
+    delay(1000)
+    emit(1)
+
+    delay(1000)
+    emit(2)
+
+    delay(1000)
+    emit(3)
+}
+
+Dữ liệu xuất hiện theo thời gian.
+
+23. Flow và suspend function khác nhau thế nào?
+
+suspend function thường trả về một kết quả.
+
+suspend fun getUser(): User
+
+Flow có thể trả về nhiều kết quả theo thời gian.
+
+fun observeUsers(): Flow<List<User>>
+
+So sánh:
+
+Kiểu	Ý nghĩa
+suspend fun getUser()	Lấy dữ liệu một lần
+Flow<User>	Có thể phát nhiều user theo thời gian
+Flow<List<User>>	Có thể phát danh sách user mỗi khi dữ liệu thay đổi
+
+Ví dụ:
+
+suspend fun getUser(): User {
+    delay(1000)
+    return User(1, "Quang")
+}
+
+Chỉ trả về một lần.
+
+fun observeCounter(): Flow<Int> = flow {
+    var count = 0
+    while (true) {
+        delay(1000)
+        emit(count++)
+    }
+}
+
+Phát dữ liệu liên tục.
+
+24. Flow cancellation
+
+Flow có thể bị hủy khi coroutine bị hủy.
+
+Ví dụ:
+
+fun counterFlow(): Flow<Int> = flow {
+    var count = 1
+    while (true) {
+        delay(500)
+        emit(count++)
+    }
+}
+
+fun main() = runBlocking {
+    val job = launch {
+        counterFlow().collect {
+            println(it)
+        }
+    }
+
+    delay(2000)
+    job.cancel()
+    println("Flow cancelled")
+}
+
+Kết quả có thể là:
+
+1
+2
+3
+Flow cancelled
+
+Trong Android, điều này rất quan trọng vì khi màn hình bị đóng, coroutine có thể bị hủy để tránh memory leak.
+
+25. Ví dụ tổng hợp dễ hiểu
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.*
+
+fun getNumbers(): Flow<Int> = flow {
+    println("Start flow")
+
+    for (i in 1..5) {
+        delay(500)
+        println("Emit $i")
+        emit(i)
+    }
+
+    println("End flow")
+}
+
+fun main() = runBlocking {
+    getNumbers()
+        .filter { it % 2 == 1 }
+        .map { it * 10 }
+        .onEach { println("After map: $it") }
+        .onCompletion { println("Completed") }
+        .collect { value ->
+            println("Collect: $value")
+        }
+}
+
+Kết quả:
+
+Start flow
+Emit 1
+After map: 10
+Collect: 10
+Emit 2
+Emit 3
+After map: 30
+Collect: 30
+Emit 4
+Emit 5
+After map: 50
+Collect: 50
+End flow
+Completed
+
+Giải thích:
+
+Flow phát 1, 2, 3, 4, 5
+filter giữ lại số lẻ: 1, 3, 5
+map nhân 10: 10, 30, 50
+collect nhận và in ra
+onCompletion chạy khi Flow kết thúc
+26. Tóm tắt ngắn gọn
+
+Flow trong Kotlin là công cụ dùng để xử lý luồng dữ liệu bất đồng bộ.
+
+Những điểm quan trọng cần nhớ:
+
+flow {}       tạo Flow
+emit()        phát dữ liệu
+collect()     nhận dữ liệu
+Flow là cold  chỉ chạy khi collect
+delay()       không block thread
+map/filter    biến đổi và lọc dữ liệu
+catch         bắt lỗi
+flowOn        đổi dispatcher
+StateFlow     lưu trạng thái UI
+SharedFlow    phát sự kiện một lần
+
+Cách hiểu đơn giản nhất:
+
+Flow giống như một cái ống dữ liệu.
+emit() là đẩy dữ liệu vào ống.
+collect() là lấy dữ liệu ra khỏi ống.
+
+Trong Android, Flow thường được dùng để quản lý:
+
+Dữ liệu từ API
+Dữ liệu từ Room Database
+Trạng thái màn hình
+Loading / Success / Error
+Sự kiện người dùng
+Tìm kiếm realtime

@@ -18,14 +18,14 @@ Chính vì chỉ có 1 phương thức abstract, nên lambda function ko cần t
 
 Các Functional Interface có sẵn:
 
-Interface           |       Method          |       Lambda Example
+Interface           |       Method              |       Lambda Example
 
-Runnable            |   void run()          |       () -> System.out.println("Run")
-Consumer<T>         | void accept(T t)              s -> System.out.println(s)
-Supplier<T>         |    T get()                     () -> "Hello"
-Function<T,R>       |    R apply(T t)                x -> x * 2
-Predicate<T>        |    boolean test(T t)           x -> x > 5
-Comparator<T>       |   int compare(T t1, T t2)     (a, b) -> a - b
+Runnable            |   void run()              |       () -> System.out.println("Run")
+Consumer<T>         | void accept(T t)                 s -> System.out.println(s)
+Supplier<T>         |    T get()                         () -> "Hello"
+Function<T,R>       |    R apply(T t)                   x -> x * 2
+Predicate<T>        |    boolean test(T t)              x -> x > 5
+Comparator<T>       |   int compare(T t1, T t2)       (a, b) -> a - b
 
 
 -----Ý NGHĨA RA ĐỜI : Lambda giải quyết 2 vấn đề cực khó là truyền behavior và closure -------
@@ -96,7 +96,7 @@ public class Lambda {
                     public int calculate(int a, int b) {
                         return a + b;
             }
-};      Lambda là cú pháp ngắn gọn để implement Functional Interface, và thường thay thế anonymous class.
+};      Lambda là cú pháp ngắn gọn để implement Functional Interface, và thường thay thế Anonymous Class.
          */
         System.out.println(add.calculate(3, 5)); // Output: 8
         System.out.println(multiply.calculate(3, 5)); // Output: 15

@@ -1,16 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+ 
 package Character_Stream;
 
 import java.io.FileReader;
 import java.io.IOException;
 
-/**
- *
- * @author manhpthe172481
- */
+
 public class R_CharStream {
 
     /* FileReader và FileWriter là hai lớp thuộc loại character stream được 
