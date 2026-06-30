@@ -10,7 +10,8 @@ public class Entry {
     2. Tất cả các phương thức trong interface đều được trình biên dịch hiểu là các 
     phương thức trừu tượng và tất cả các biến trong interface đều được trình biên 
     dịch hiểu là các hằng số. Cụ thể, các thuộc tính luôn luôn mặc định là
-    public static final và ko thể thay đổi. Phương thức có thể thuộc các loại sau:
+    public static final và ko thể thay đổi. 
+    Phương thức có thể thuộc các loại sau ( từ JAVA 8 ):
         - phương thức trừu tượng : luôn luôn mặc định là public abstract
         - phương thức default: khai báo với default, có thân, có thể override
         - phương thức static : có thân, ko cần đối tượng để gọi

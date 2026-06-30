@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void onPushNotification(View view) {
+    public void onLocalNotification(View view) {
         NotificationChannel channel = new NotificationChannel(CHANNEL_ID_1, "First Channel",
                 NotificationManager.IMPORTANCE_HIGH);
         NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);

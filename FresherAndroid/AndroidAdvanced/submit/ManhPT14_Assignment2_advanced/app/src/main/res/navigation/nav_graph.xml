@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/occupationFormFragment">
+
+    <fragment
+        android:id="@+id/occupationListFragment"
+        android:name="com.example.hotelroomdb.fragment.OccupationListFragment"
+        android:label="Occupation List">
+        <action
+            android:id="@+id/action_occupationListFragment_to_occupationFormFragment"
+            app:destination="@id/occupationFormFragment" />
+        <action
+            android:id="@+id/action_occupationListFragment_to_expenseReportFragment"
+            app:destination="@id/expenseReportFragment" />
+        <action
+            android:id="@+id/action_occupationListFragment_to_revenueReportFragment"
+            app:destination="@id/revenueReportFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/occupationFormFragment"
+        android:name="com.example.hotelroomdb.fragment.OccupationFormFragment"
+        android:label="Add Occupation" />
+
+    <fragment
+        android:id="@+id/expenseReportFragment"
+        android:name="com.example.hotelroomdb.fragment.ExpenseReportFragment"
+        android:label="Expense Report 2023" />
+
+    <fragment
+        android:id="@+id/revenueReportFragment"
+        android:name="com.example.hotelroomdb.fragment.RevenueReportFragment"
+        android:label="Revenue by Year" />
+
+</navigation>

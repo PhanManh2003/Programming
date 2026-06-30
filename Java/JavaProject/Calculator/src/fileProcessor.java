@@ -33,7 +33,7 @@ public class fileProcessor {
         }
     }
     
-    public void processFile(){
+    public void processFile() throws IOException{
         openFile(FilePath);
         System.out.println("Processing file...");
         if (FilePath == null) {

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">24hrs Store</string>
+
+    <string-array name="filter_options">
+        <item>None (All)</item>
+        <item>Transaction Type</item>
+        <item>Date Time</item>
+        <item>Holder Name</item>
+        <item>Currency</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="6000"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:repeatCount="infinite"
+    android:interpolator="@android:anim/linear_interpolator" />
+
+<!--
+duration 6000   Xoay 1 vòng mất 6 giây
+fromDegrees 0   Bắt đầu từ 0 độ
+toDegrees   360 Kết thúc ở 360 độ
+pivotX  50% Tâm xoay theo chiều ngang
+pivotY  50% Tâm xoay theo chiều dọc
+repeatCount infinite    Xoay mãi mãi
+interpolator    linear  Tốc độ xoay đều, không giật
+
+-->
+

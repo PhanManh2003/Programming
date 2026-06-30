@@ -1,3 +1,9 @@
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class DataProcessor {
     private int dataCount = 0;
     private boolean isProcessing;
@@ -23,7 +29,11 @@ public class DataProcessor {
     }
 
     public void closeWriter() {
-        writer.close();
+        try {
+            writer.close();
+        } catch (IOException ex) {
+            Logger.getLogger(DataProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     public void processAllData() {

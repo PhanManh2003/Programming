@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2761b31b-4897-40cf-89ed-fd68e27d39e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AndroidBasicCode/ManhPT14_Assignment6.2_Service/app/src/main/java/com/example/foregroundservicemusic/activity/PlayerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AndroidBasicCode/ManhPT14_Assignment6.2_Service/app/src/main/res/layout/activity_player.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/androidTest/java/com/example/bmicalculator/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/java/com/example/bmicalculator/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/drawable/border_edittext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/app/src/test/java/com/example/bmicalculator/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment1_BMI/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/androidTest/java/com/example/twoactivityexchange/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/java/com/example/twoactivityexchange/AboutYouActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/java/com/example/twoactivityexchange/InputValueActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/drawable/bg_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/drawable/btn_submit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/layout/activity_about_you.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/layout/activity_input_value.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/app/src/test/java/com/example/twoactivityexchange/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment2_ActivityExchangeData/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/androidTest/java/com/example/implicitintentstartapp/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/java/com/example/implicitintentstartapp/BootReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/java/com/example/implicitintentstartapp/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/app/src/test/java/com/example/implicitintentstartapp/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/androidTest/java/com/example/bai2_intentsenddata/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/java/com/example/bai2_intentsenddata/ActivityA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/java/com/example/bai2_intentsenddata/ActivityB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/java/com/example/bai2_intentsenddata/req_sol.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/layout/activity_a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/layout/activity_b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/app/src/test/java/com/example/bai2_intentsenddata/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/androidTest/java/com/example/appa/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/java/com/example/appa/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/java/com/example/appa/req_sol.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/app/src/test/java/com/example/appa/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appA/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/androidTest/java/com/example/appb/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/java/com/example/appb/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/java/com/example/appb/OpenReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/app/src/test/java/com/example/appb/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment3_IntentBroadcast/bai3/appB/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/androidTest/java/com/example/ass4/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/java/com/example/ass4/DetailActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/java/com/example/ass4/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/java/com/example/ass4/adapter/BookAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/java/com/example/ass4/data/MockData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/java/com/example/ass4/model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/java/com/example/ass4/req_sol.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/book9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/layout/activity_detail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/layout/book_item.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/app/src/test/java/com/example/ass4/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidBasic/ManhPT14_Assignment4_ViewGroup/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../KotlinCode/ManhPT14_FR_KOL_T01/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../KotlinCode/ManhPT14_FR_KOL_T01/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PRM392/FragmentDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PRM392/FragmentDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PRM392/NotificationDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PRM392/NotificationDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PRM392/NotificationDemo/app/src/main/java/com/example/notificationdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PRM392/NotificationDemo/app/src/main/java/com/example/notificationdemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PRM392/NotificationDemo/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PRM392/NotificationDemo/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Slide/Basic Android for Automotive Slide/05_Fragment.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Slide/Basic Android for Automotive Slide/05_Fragment.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Slide/Basic Android for Automotive Slide/06_Android_Notification.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Slide/Basic Android for Automotive Slide/06_Android_Notification.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Slide/Basic Android for Automotive Slide/08.Animation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Slide/Basic Android for Automotive Slide/08.Animation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Slide/Basic Android for Automotive Slide/09_Debug.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Slide/Basic Android for Automotive Slide/09_Debug.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Slide/Java Android for Automotive Lectures/Unit03_Thread States and Transitions.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Slide/Java Android for Automotive Lectures/Unit03_Thread States and Transitions.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Slide/Java Android for Automotive Lectures/Unit04_ Array and Control Statements.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Slide/Java Android for Automotive Lectures/Unit04_ Array and Control Statements.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Slide/Java Android for Automotive Lectures/Unit04_Java_Collection &amp; Sorting.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Slide/Java Android for Automotive Lectures/Unit04_Java_Collection &amp; Sorting.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Slide/Kotlin Android for Automotive Slide/Tóm tắt.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Slide/Kotlin Android for Automotive Slide/Tóm tắt.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/JavaProject/Calculator/src/DataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/JavaProject/Calculator/src/DataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/JavaProject/Calculator/src/fileProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/JavaProject/Calculator/src/fileProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/JavaProject/CandidateManagement/src/business/ManagerCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/JavaProject/CandidateManagement/src/business/ManagerCandidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/JavaProject/Thread/src/create_thread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/JavaProject/Thread/src/create_thread/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/JavaProject/Thread/src/create_thread/ThreadPriority.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/JavaProject/Thread/src/create_thread/ThreadPriority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/JavaProject/slot8/src/Interface/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/JavaProject/slot8/src/Interface/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/JavaProject/slot8/src/up_casting/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/JavaProject/slot8/src/up_casting/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Kotlin/kotlin-crash-course/src/main/kotlin/youtube/OOP.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Kotlin/kotlin-crash-course/src/main/kotlin/youtube/OOP.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\ADMIN\.android\avd\Medium_Phone.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3FWI7kfVQYPvjT9EWp51MbWY3VB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="com.example.mvvmdemo_buoi1.view" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="MVVMdemo_buoi1.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2761b31b-4897-40cf-89ed-fd68e27d39e1" name="Changes" comment="" />
+      <created>1782184233043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782184233043</updated>
+    </task>
+    <servers />
+  </component>
+</project>

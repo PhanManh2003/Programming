@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ContactApp</string>
+
+    <string name="title_contacts">Contacts</string>
+    <string name="title_detail">Contact Detail</string>
+    <string name="title_edit">Edit Contact</string>
+    <string name="title_add">Add Contact</string>
+    <!--  Menu  -->
+    <string name="menu_search">Search</string>
+    <string name="menu_add">Add Contact</string>
+    <string name="menu_delete">Delete</string>
+    <!--  Buttons  -->
+    <string name="btn_call">Call</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <!--  Hints  -->
+    <string name="hint_name">Full Name *</string>
+    <string name="hint_phone">Phone Number *</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_search">Search contacts…</string>
+    <!--  Labels  -->
+    <string name="label_phone">Phone</string>
+    <string name="label_email">Email</string>
+    <string name="label_photo">Photo</string>
+    <!--  Messages  -->
+    <string name="msg_no_contacts">No contacts yet.\nTap + to add one.</string>
+    <string name="msg_delete_confirm">Delete this contact?</string>
+    <string name="msg_delete_success">Contact deleted</string>
+    <string name="msg_save_success">Contact saved</string>
+    <string name="msg_name_required">Name is required</string>
+    <string name="msg_phone_required">Phone number is required</string>
+    <string name="msg_no_call_app">No dialer app found</string>
+    <!--  Dialog  -->
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <!--  Content descriptions  -->
+    <string name="cd_avatar">Contact avatar</string>
+    <string name="cd_call">Call contact</string>
+    <string name="cd_edit">Edit contact</string>
+</resources>

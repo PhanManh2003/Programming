@@ -21,29 +21,51 @@ package create_thread;
 Thread State: Xem ảnh slide ( 6 trạng thái : new, runnable, running, blocked,
 waiting , timed-waiting, terminated)
 
-BLOCKED : thread này đang chờ để lấy lock ( chìa khoá ) của method synchronized 
-đang dc giữ bởi thread khác.
+BLOCKED : BLOCKED state xảy ra khi một thread muốn vào synchronized nhưng
+monitor lock đang bị thread khác giữ, nên nó phải chờ để lấy lock.
     
 
 WAITING: chờ vô thời hạn. 
 
 VD:
-        object.wait();      // → WAITING ( đợi tín hiệu từ thread khác)
-        thread1.join();      // → WAITING (chờ thread1 chạy xong) ( dùng nhiều)
+        object.wait();      // → WAITING (vào waiting đợi tín hiệu từ thread notify, nhả lock)
+        thread1.join();      // → WAITING (main thread chờ thread1 chạy xong) ( dùng nhiều)
         LockSupport.park(); // → WAITING (dùng khi bạn muốn “treo” một thread   
             và chủ động quyết định khi nào đánh thức nó bằng unpark(). ít dùng)
 
 TIMED_WAITING: chờ có thời hạn. ( tự thức dậy hoặc có thread khác đánh thức)
 
 VD: 
-            Thread.sleep(1000);          // ngủ ko nhả lock
+            Thread.sleep(1000);          // thread chạy dòng này sẽ tự ngủ ko nhả lock
             object.wait(1000);           // đợi tối đa 1s (có mỗi thằng này nhả lock)
             thread1.join(1000);           // Đợi tối đa 1 giây cho thread1 kết thúc.
             LockSupport.parkNanos(1000); // TIMED_WAITING
 
 TERMINATED: thread đã run xong , ko thể start lại.
 
+ CHÂN LÝ:
+
+Thread nào đang thực thi code và gọi một blocking method thì chính thread đó sẽ
+bị chuyển sang trạng thái WAITING / TIMED_WAITING.
+
+Áp dụng cho:
+
+sleep() → thread hiện tại
+join() → thread hiện tại
+wait() → thread hiện tại
+park() → thread hiện tại
+
+
+WAITING VS BLOCKED
+Wait khác block ở chỗ là nó thread tự chủ động.
+BLOCKED occurs when a thread is waiting to acquire a monitor lock, while WAITING
+occurs when a thread is waiting for another thread to signal it via mechanisms
+like wait/notify, join, or park.
  */
+
+
+
+
  /*
  Thread class cung cấp các constructor và method để thao tác trên 1 thread.
  
@@ -79,7 +101,7 @@ public class Main {
 //        t2.start(); //Tạo thread mới để chạy object Runnable này; output: thread 2 running
 
         /**
-         * currentThread(): trả về ref của thread đang chạy đang code này
+         * currentThread(): trả về ref của thread đang chạy đoạn code hiện tại
          * getName(): lấy tên thread
          */
 //        Thread t = Thread.currentThread();
@@ -121,7 +143,8 @@ public class Main {
 //
 //        System.out.println("Sau khi chết: " + t.isAlive()); // false
         /**
-         * activeCount(): đếm số thread đang hoạt động
+         * activeCount(): Thread.activeCount() trả về số thread đang active 
+         * trong cùng Thread Group (ước lượng, không chính xác tuyệt đối).
          *
          */
 //         System.out.println("Số thread: " + Thread.activeCount());  // 1 (main)
@@ -151,12 +174,15 @@ Nhưng:
 
 JVM/OS có thể bỏ qua hoàn toàn.
          */
+        
+        
  /*
 
 Interrupt: gửi tín hiệu xin hãy dừng lại . Kiểu như:
 📢 Bạn GỌI ĐIỆN cho người đang ngủ
 🛌 Nếu họ đang NGỦ → điện thoại reo → họ THỨC DẬY
-🏃 Nếu họ đang CHẠY BỘ → điện thoại reo nhưng họ KHÔNG NGHE → phải TỰ KIỂM TRA điện thoại
+🏃 Nếu họ đang CHẠY BỘ → điện thoại reo nhưng họ KHÔNG NGHE → 
+        họ phải TỰ KIỂM TRA điện thoại để thấy tín hiệu ( isInterruped)
 
  Quy tắc vàng:
 
@@ -174,7 +200,7 @@ Interrupt: gửi tín hiệu xin hãy dừng lại . Kiểu như:
             }
         });
 
-        t.start();
+        t.start(); // Main thread vẫn chạy tiếp cùng t thread
         try {
             Thread.sleep(2000);  // Main ngủ 2 giây để cho t nó ngủ
         } catch (InterruptedException ex) {

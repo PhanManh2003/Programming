@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <!-- ===== THANH TRÊN CÙNG ===== -->
+
+    <!-- Nút Back góc trái -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@android:drawable/ic_media_rew"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="#FFFFFF" />
+
+    <!-- Tên bài hát ở giữa top -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Let It Go"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"
+        app:layout_constraintTop_toTopOf="@id/btnBack"
+        app:layout_constraintBottom_toBottomOf="@id/btnBack"
+        app:layout_constraintStart_toEndOf="@id/btnBack"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Tên ca sĩ dưới tên bài -->
+    <TextView
+        android:id="@+id/tvArtist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Idina Menzel"
+        android:textSize="13sp"
+        android:textColor="#AAAAAA"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toEndOf="@id/btnBack"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ===== ẢNH BÌA XOAY ===== -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgCover"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircleImageView"
+        app:layout_constraintTop_toBottomOf="@id/btnBack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ===== THANH TIẾN TRÌNH ===== -->
+
+    <!-- Thời gian hiện tại -->
+    <TextView
+        android:id="@+id/tvCurrentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="12sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/imgCover"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Thời gian tổng -->
+    <TextView
+        android:id="@+id/tvTotalTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:textSize="12sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="@id/tvCurrentTime"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- SeekBar tiến trình bài hát -->
+    <SeekBar
+        android:id="@+id/seekBarProgress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="4dp"
+        android:progressTint="#1DB954"
+        android:thumbTint="#1DB954"
+        app:layout_constraintTop_toBottomOf="@id/tvCurrentTime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ===== CÁC NÚT ĐIỀU KHIỂN ===== -->
+
+    <!-- Nút Previous -->
+    <ImageButton
+        android:id="@+id/btnPrevious"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:src="@android:drawable/ic_media_previous"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:tint="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/seekBarProgress"
+        app:layout_constraintEnd_toStartOf="@id/btnPlayPause"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Nút Play/Pause (to nhất, ở giữa) -->
+    <ImageButton
+        android:id="@+id/btnPlayPause"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:src="@android:drawable/ic_media_pause"
+        android:background="@drawable/circle_button_bg"
+        android:tint="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/seekBarProgress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Nút Next -->
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:src="@android:drawable/ic_media_next"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:tint="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/seekBarProgress"
+        app:layout_constraintStart_toEndOf="@id/btnPlayPause"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- ===== THANH ÂM LƯỢNG ===== -->
+
+    <!-- Icon âm lượng nhỏ -->
+    <ImageView
+        android:id="@+id/icVolumeDown"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@android:drawable/ic_lock_silent_mode"
+        android:tint="#AAAAAA"
+        app:layout_constraintTop_toBottomOf="@id/btnPlayPause"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- SeekBar âm lượng -->
+    <SeekBar
+        android:id="@+id/seekBarVolume"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:max="100"
+        android:progressTint="#1DB954"
+        android:thumbTint="#1DB954"
+        app:layout_constraintTop_toTopOf="@id/icVolumeDown"
+        app:layout_constraintBottom_toBottomOf="@id/icVolumeDown"
+        app:layout_constraintStart_toEndOf="@id/icVolumeDown"
+        app:layout_constraintEnd_toStartOf="@id/icVolumeUp" />
+
+    <!-- Icon âm lượng to -->
+    <ImageView
+        android:id="@+id/icVolumeUp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="16dp"
+        android:src="@android:drawable/ic_lock_silent_mode_off"
+        android:tint="#AAAAAA"
+        app:layout_constraintTop_toTopOf="@id/icVolumeDown"
+        app:layout_constraintBottom_toBottomOf="@id/icVolumeDown"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

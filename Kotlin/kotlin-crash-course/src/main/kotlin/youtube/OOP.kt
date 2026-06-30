@@ -42,7 +42,7 @@ fun printShapes(vararg shapes: Shape) {
         }
     }
 }
-// sealed class/ interface để giới hạn phạm vi kế thừa, iúp compiler biết trước tất cả các lớp con có thể có.
+// sealed class/ interface để giới hạn phạm vi kế thừa, giúp compiler biết trước tất cả các lớp con có thể có.
 // Các subclass/implementors của sealed có thể nằm ở cùng package nhưng khác file,
 
 

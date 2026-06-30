@@ -12,9 +12,10 @@ Important Methods:
 
 
 
--> The lower-priority running thread "usually" will be bumped back to
-runnable and the highest-priority thread will be chosen to run. Thường thì đa số 
-trường hợp thì running thread sẽ có priority >= các thread khác đang chờ.
+-> 1 thread mới vô runnable state thì có priority cao nhất, hơn cả running thread
+nhưng chưa phải là điều kiện đủ để scheduler chọn nó vô running. Trong đa số 
+trường hợp thì thread running có priority cao hơn các thread trong pool
+
 
 Use thread priorities as a way to improve efficiency:
 Ví dụ như UI thread ưu tiên hơn log Thread
@@ -25,7 +26,7 @@ JAVA có 2 loại thread: user thread và daemon thread.
 The characteristics of the daemon threads are:
 - They work in the background providing service to other threads.
 - They are fully dependent on the user threads.
-- JVM stops once only daemon threads are alive
+- JVM terminates when all non-daemon (user) threads have finished execution
 - dùng .setDaemon() để chỉ định 1 thread là daemon
  */
 public class ThreadPriority {

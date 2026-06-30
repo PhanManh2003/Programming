@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    FILE: item_contact.xml
+    VỊ TRÍ: res/layout/item_contact.xml
+
+    Mục đích: Layout cho MỖI HÀNG trong RecyclerView.
+    Được inflate bởi ContactAdapter cho từng item trong danh sách.
+    Bọc trong <layout> để kích hoạt Data Binding (nhận biến "contact").
+
+    Cấu trúc:
+    - CardView (root, to nhất): tạo hiệu ứng card nổi với bo góc và đổ bóng
+      └── ConstraintLayout: định vị các view bên trong
+            ├── tvAvatar: hình tròn hiển thị chữ cái đầu của tên
+            ├── tvName: tên liên hệ (in đậm)
+            ├── tvPhone: số điện thoại
+            └── tvEmail: địa chỉ email
+-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Khai báo biến Contact để Data Binding gán dữ liệu từ Adapter -->
+    <data>
+
+        <variable
+            name="contact"
+            type="com.example.ass1.model.Contact" />
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="4dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp">
+
+        <!-- Layout bên trong card dùng ConstraintLayout để định vị chính xác -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="16dp">
+
+
+            <TextView
+                android:id="@+id/tvAvatar"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:background="@drawable/circle_avatar_bg"
+                android:gravity="center"
+                android:text="@{contact.name.substring(0, 1).toUpperCase()}"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- ===== TÊN LIÊN HỆ ===== -->
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@{contact.name}"
+                android:textColor="#1A1A2E"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvAvatar"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- ===== SỐ ĐIỆN THOẠI ===== -->
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:text="@{contact.phone}"
+                android:textColor="#555577"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvAvatar"
+                app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+            <!-- ===== EMAIL ===== -->
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="2dp"
+                android:text="@{contact.email}"
+                android:textColor="#888899"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvAvatar"
+                app:layout_constraintTop_toBottomOf="@+id/tvPhone" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>
+

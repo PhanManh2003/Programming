@@ -42,7 +42,7 @@ public class ManagerCandidate {
                         break;
                 }
             } 
-            String opinion = Vali
+            String opinion = Validator.getString("your opinion", "error", "\\s");
              
         }
     }
