@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClaudeCodeEditorTabs">
+    <option name="activeSessionId" value="36104a13-dedd-4c93-8cc6-b2243976d578" />
+    <option name="openSessionIds">
+      <list>
+        <option value="c64136e1-ea67-4164-8087-6678d3c54fd0" />
+        <option value="fc5af712-ba5f-40ac-81c2-d235a17fd68e" />
+        <option value="36104a13-dedd-4c93-8cc6-b2243976d578" />
+      </list>
+    </option>
+    <option name="sessionPaths">
+      <map>
+        <entry key="36104a13-dedd-4c93-8cc6-b2243976d578" value="/switch-account" />
+        <entry key="c64136e1-ea67-4164-8087-6678d3c54fd0" value="/sessions/new" />
+        <entry key="fc5af712-ba5f-40ac-81c2-d235a17fd68e" value="/sessions/62ac9f2a-3160-40de-8600-a1e48c8cf10f" />
+      </map>
+    </option>
+    <option name="sessionTitles">
+      <map>
+        <entry key="36104a13-dedd-4c93-8cc6-b2243976d578" value="localhost:50358/switch-account?workingDir=D%3A%2FProgramming%2FFresherAndroid%2FAndroidAdvanced%2Fsubmit%2FManhPT14_ReactiveProgramming&amp;panelId=7dd6fd7b-8e77-47d0-9250-dd941a860d59&amp;theme=light" />
+        <entry key="c64136e1-ea67-4164-8087-6678d3c54fd0" value="Claude Code" />
+        <entry key="fc5af712-ba5f-40ac-81c2-d235a17fd68e" value="hiện tại tôi đang code cho bài assignment reactive" />
+      </map>
+    </option>
+  </component>
+</project>

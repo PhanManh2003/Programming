@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">myapp2</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_weight_row_col">WeightRowColActivity</string>
+    <string name="title_activity_scroll_row_col">ScrollRowColActivity</string>
+    <string name="title_activity_box_modifier">BoxModifierActivity</string>
+</resources>
